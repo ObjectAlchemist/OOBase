@@ -1,0 +1,1111 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C58F53F0C8772413B7C1C0 /* DoWritableStringRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901ED2901F681BD699525983 /* DoWritableStringRemove.swift */; };
+		04A089684B53A2727724DEE7 /* StringCached.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17E5C72AFC5AD637B16B45 /* StringCached.swift */; };
+		06577C996FFF43F10934C37A /* DoWritableKeyValueSetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D4D90D4518F5857E8CEB1 /* DoWritableKeyValueSetSpec.swift */; };
+		06E5CBF0E140871120DADA78 /* OOBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D243C4313E7D51CA59A3700 /* OOBool.swift */; };
+		0833369DD6B533E7E0CDEB02 /* StringSummarized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA301F85EE47C5895D8972E /* StringSummarized.swift */; };
+		0A4FDF4ECD2DC9EBBDE1E9BE /* BoolFromKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D69B87B9A8A9392EDCDC9AD /* BoolFromKeyValue.swift */; };
+		0AE997C2CFE45C5C45DFE1FF /* IntConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67AB01CEFFFBCD81BABB405 /* IntConst.swift */; };
+		0B3E36DA10D7C9664AF93160 /* WritableIntFromWritableKeyValueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767BC6FB4DB7ED3DC0D1430 /* WritableIntFromWritableKeyValueSpec.swift */; };
+		0B95B51FEFF046AFD879BE22 /* OOEventInform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BFB44D34B05EFD7221166 /* OOEventInform.swift */; };
+		0DDA5F2514A174B4243639D3 /* OOBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B757E5268B698E93B36594B /* OOBase.framework */; };
+		0F1CF559B7EA252B13A8E563 /* WritableFloatMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AAFB89E7C69F0CB2DB2B1E /* WritableFloatMemory.swift */; };
+		0FC78C9D1B6A0660CB1F2AE5 /* IntSubtracted.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B3622F59F7F54B39E6F37 /* IntSubtracted.swift */; };
+		10553B70910469C5636B2258 /* OOExecutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0EA2B4DE0C5DB6E944A596 /* OOExecutable.swift */; };
+		13E4088E78E927A1DDD40A73 /* WritableKeyValueMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F01D846466979DDD1AC237 /* WritableKeyValueMemory.swift */; };
+		15C058FF9A613EE5359571BC /* DoWritableFloatRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D337BF480BAA0E3FB921D8 /* DoWritableFloatRemove.swift */; };
+		16D67F04A9ADBF1C2B10F490 /* BoolFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3975FDA01460C4033CA46537 /* BoolFromString.swift */; };
+		18657A5FDDB06AD620DA088C /* DoStackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CCF3301A1316C56FE8D21 /* DoStackSpec.swift */; };
+		187E6DD53F6F07F10B766210 /* DoWritableBoolSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D9569D696827A3048F818 /* DoWritableBoolSet.swift */; };
+		18A9C6970D97E1E5038C268D /* WritableIntMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D2038C891BDCE2B16C0115 /* WritableIntMemory.swift */; };
+		1B65D3DED60A75EC13FFD969 /* IsEmptyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB9F5D6814465FD371B4ACD /* IsEmptyString.swift */; };
+		1D1F82F0B718B2FF7497D48D /* IntCached.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AF1F4E673DE5332E76B2C9 /* IntCached.swift */; };
+		20C9ADC93AC78920A046F3A6 /* WritableIntFromWritableKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F1A3F40AD9D7A15C8625F /* WritableIntFromWritableKeyValue.swift */; };
+		2200FF719C76E4961E2611D7 /* DoWritableFloatRemoveSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FB12C3831B114CD312EFE2 /* DoWritableFloatRemoveSpec.swift */; };
+		240C0E6D33E3F8DC70B896F8 /* IntFromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EBE7F7CBD471A1CDC800A /* IntFromBool.swift */; };
+		2416827309430B26523130EF /* IntFromFloatSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD7868B80537EC78763E239 /* IntFromFloatSpec.swift */; };
+		241F0E3AAB19A59B4E0C715B /* StringFromIntSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BD0B254D311B6F0A2E4B3 /* StringFromIntSpec.swift */; };
+		259C343A90FE3E011CE446A7 /* FloatFromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30501D1DBE47585707B9363 /* FloatFromBool.swift */; };
+		26F1106E18B83AE971375299 /* FloatDivided.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D0844C77D1E89CF886CE17 /* FloatDivided.swift */; };
+		27B1A73C0AD411AE6CFB5402 /* HasWritableStringValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E780B86E258FF1F1B15D34 /* HasWritableStringValue.swift */; };
+		2820BD353D426E79CD6A66D8 /* IsEqualStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C6D2399F13012332C9C06A /* IsEqualStrings.swift */; };
+		28C0970F057B6815C821A43C /* BoolConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9F662F91377A52EC4EA53E /* BoolConst.swift */; };
+		2A20098F4BDC8B58D6150E06 /* Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407DD05D9AB776070D8A3620 /* Not.swift */; };
+		2B3460518C37B5C272EFB84C /* DoNothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC2A9051E8C0962091A077 /* DoNothing.swift */; };
+		2B7043F49881C8D91B10C7C5 /* WritableKeyValuePrefixedKeysSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01FC0E2C2B13475E5F9243 /* WritableKeyValuePrefixedKeysSpec.swift */; };
+		2BF53636FCFE28C5BF20E46D /* BoolIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3004AF22C34724C8F5D10934 /* BoolIF.swift */; };
+		2FB3D0E80DC9E4A49C2F2888 /* BoolFromFloatSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54A67A26AA2B70B5ED8E24 /* BoolFromFloatSpec.swift */; };
+		3132FBC85F426EF9233E4877 /* IntIFSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905738DF30BF10F336267F7F /* IntIFSpec.swift */; };
+		329AEAED95885F5F5F121159 /* HasWritableKeyValueValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23F096A84CC5A25B16020B /* HasWritableKeyValueValue.swift */; };
+		36181289C53D06EB9E7A6D24 /* HasWritableBoolValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031AFAFB072F249AD5BD22A /* HasWritableBoolValue.swift */; };
+		369C7BC8D5B9F88A8F80CE28 /* DoWritableKeyValueRemoveSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F71BB589D5E4BAB4AC16C /* DoWritableKeyValueRemoveSpec.swift */; };
+		38FD4CC8E7F8BF7A031E3548 /* InformNothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9965AB801F41207BBECD5 /* InformNothing.swift */; };
+		3A3172E7A2996796D45629C8 /* OOString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CACC4EC8F52A98B1BA2FA8 /* OOString.swift */; };
+		3CB74CCC1A44B8C92E152667 /* OR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99404EC60BB18AB6CF70BC3B /* OR.swift */; };
+		3DFC8448B102CF660D342B06 /* IntFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9823186C4FAE59F55D9B6574 /* IntFromString.swift */; };
+		417A9DEC28FD4BA0C18587EB /* DoWritableBoolRemoveSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7E020FC58B48BBBAE072AE /* DoWritableBoolRemoveSpec.swift */; };
+		45C654AB7795A3895C149CC2 /* StringSummarizedSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E42B7724210818E4D2E995B /* StringSummarizedSpec.swift */; };
+		467BFE69A48D94FE7924D185 /* BoolFromFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D7AAB25717A12FF1AEBB9 /* BoolFromFloat.swift */; };
+		4774604EF9972DEE7FF942FB /* IsEqualFloats.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72298AB539F7EE5B45E337D /* IsEqualFloats.swift */; };
+		493820F9A1CF4CA51D5C8AEF /* WritableKeyValueMemorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C96E4B8314A05CD9484BF /* WritableKeyValueMemorySpec.swift */; };
+		4D2C08CD39DFECE2C63B053B /* FloatFromIntSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587B45E8FC230B2B5518655E /* FloatFromIntSpec.swift */; };
+		4F2D0AB2132641ED6C3D23B9 /* StringIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B9E96EAF3ADCA85575BEB /* StringIF.swift */; };
+		4F3D56FAFE6BC05F806B2CB0 /* WritableStringFromWritableKeyValueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB3148848A899FD2FDB5BF /* WritableStringFromWritableKeyValueSpec.swift */; };
+		4FC85E4F31D1D05CB433B96E /* FloatIFSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BD77359F1AB864F384AF2 /* FloatIFSpec.swift */; };
+		4FE1D3CCF8954DEBDAE6CBD9 /* WritableBoolFromWritableKeyValueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE956414EB022BD86F7C7AB /* WritableBoolFromWritableKeyValueSpec.swift */; };
+		5065869CCB721CB03775C96C /* IntMultiplicated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E60E43AEC611E0C5ABB43 /* IntMultiplicated.swift */; };
+		519F8ABF28AF6DBCCDF7478D /* DoWritableIntRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9209011CE668D64C05844D1 /* DoWritableIntRemove.swift */; };
+		52ECDB1E2C4EC65AA2EC52E8 /* FloatIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52E00D3079A9D283183473 /* FloatIF.swift */; };
+		5389C639B35CCA5393F76D6C /* And.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2A9B2B912C142365E8D0A /* And.swift */; };
+		5E9E870C6550D422770B7840 /* FloatFromInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075B313D5E0852D86BD7687E /* FloatFromInt.swift */; };
+		65CF16ED0BA10486D71CA69E /* InformOnSetFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657ACFE4B013EE97E7D077A /* InformOnSetFloat.swift */; };
+		66494FBE98D617345593F99F /* OOAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1038C3D9822121D713F582 /* OOAny.swift */; };
+		66AA23FDC0103A635BE06F5C /* StringIFSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D202D3B1D437B7541432E16 /* StringIFSpec.swift */; };
+		6710BD842DE34A8C9656BB6F /* IntCachedSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E9717D4DF6E6B13FFA655 /* IntCachedSpec.swift */; };
+		67220F2902BD32FD1ADE31CF /* StringFromKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84807706EE562D351D6054B5 /* StringFromKeyValue.swift */; };
+		68D719AF84BEF5215F5BE277 /* BoolFromStringSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78499566C173ADD7AEA322F /* BoolFromStringSpec.swift */; };
+		6F4ADFF5CCF390EFCC774F3F /* FloatFromStringSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50780404492F74325A3803AA /* FloatFromStringSpec.swift */; };
+		74C399DF08C47706524C0EB3 /* HasWritableKeyValueValueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2692F023BC7E8BB472A41F6E /* HasWritableKeyValueValueSpec.swift */; };
+		7503A649AE97D84D66074915 /* DoWritableBoolRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F8521827ED210E58BBEB6 /* DoWritableBoolRemove.swift */; };
+		7818F7AB902519EE02B2649B /* WritableFloatFromWritableKeyValueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49FB8B6E95B0C0200839BE /* WritableFloatFromWritableKeyValueSpec.swift */; };
+		7A92420AFFA9AB13843AE46E /* DoWritableIntSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6005CBE1AE57C79D73BD40D5 /* DoWritableIntSet.swift */; };
+		7B4DF5231F0DAD7E399AE048 /* HasWritableFloatValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8831C28C4D8DD06289ACE3EA /* HasWritableFloatValue.swift */; };
+		7B81906EACD0C1D53B40A44F /* DoGenericSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31046F64D778AA61A75A8E8C /* DoGenericSnippet.swift */; };
+		7C3322AFA3937DA466E656E8 /* HasWritableIntValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B02FD3F76162C230730A243 /* HasWritableIntValue.swift */; };
+		7FFCF82CC50CA37179860707 /* BoolFromIntSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD7325AB0A32BC85065555C /* BoolFromIntSpec.swift */; };
+		82A6CC488D4FEA65023D5F36 /* DoWritableKeyValueRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD89C84D23D5D0A66E2A4AE2 /* DoWritableKeyValueRemove.swift */; };
+		83A30247963D3358017DC473 /* HasWritableBoolValueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89CA987346388D297BF8359 /* HasWritableBoolValueSpec.swift */; };
+		84A5D35ECE43EAB11115A631 /* StringConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173177921A186C1ED3554DBE /* StringConst.swift */; };
+		8815265006E490AB9CF86A32 /* InformOnSetInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8E93D74F2F5A482EF88945 /* InformOnSetInt.swift */; };
+		8914ADCA879DD659C07B0C3B /* FloatFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE2B5C4403DD2048D6072E8 /* FloatFromString.swift */; };
+		89A181F8BB6010AE104334A6 /* DoIFSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8345EFDA3DD62D89C31F72 /* DoIFSpec.swift */; };
+		8BA46BF1E8E8D17886F82B8D /* FloatConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C6DD6A25067AEFEA9CF309 /* FloatConst.swift */; };
+		8BDE689783B1A22F7FF7DC49 /* FALSE.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A9E66D9C979081EC09C2A /* FALSE.swift */; };
+		8C10E34EF5D3B1A24DDE349A /* InformOnSetString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C71E44D0DEF1FBEF8DC263F /* InformOnSetString.swift */; };
+		8C92B7B45851EF8420720740 /* WritableFloatMemorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B80D78E8BDBBD8EC40F3F4 /* WritableFloatMemorySpec.swift */; };
+		8DAC2ED2B1CFE401FA6D166E /* StringFromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC5B9227A99653DDF89C0B9 /* StringFromBool.swift */; };
+		8F17D1EF96B8BA66162A1E2D /* WritableIntMemorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60146288838D5710F2EDD9 /* WritableIntMemorySpec.swift */; };
+		907DB910AF64BF000E297FCC /* DoStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DFD29566DC152ABD4B5752 /* DoStack.swift */; };
+		90C9C2164A1229B6C48F06C3 /* DoWritableFloatSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CBBA4FB766A289B235640A /* DoWritableFloatSet.swift */; };
+		9325FF86F76674287CCC21BE /* DoWritableKeyValueSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81970F053D28B8A577AAD8B9 /* DoWritableKeyValueSet.swift */; };
+		956810DE1A437D4DBC7EE469 /* IntFromFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AF4A38182C86B30D6A559 /* IntFromFloat.swift */; };
+		9617C3E8D4904BAFDB07BB2A /* IntSummarized.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB460B3139445AB2A5052BFC /* IntSummarized.swift */; };
+		9663FD05C6576FDE20EB0C46 /* BoolFromInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA47C7BDD923DCCC461D3C65 /* BoolFromInt.swift */; };
+		A6FED5433AE6232641065997 /* IntIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC74ED126D226A2EF0BCDAC /* IntIF.swift */; };
+		A794CBD4CF9534B6D66DDE24 /* DoWritableStringSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5310D914FEBD27D27C6BB64 /* DoWritableStringSet.swift */; };
+		AC58AFE52216498939BEF9A0 /* StringFromInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7CF0B16E2E0BFAACAFE8B2 /* StringFromInt.swift */; };
+		AFFE201735A208940B05F18B /* StringFromBoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F6B8DDB6703BCEE7DDA03 /* StringFromBoolSpec.swift */; };
+		B0618785FC2B6DEA29D32AD6 /* InformOnSetBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F8A07581F1E3EB9CFAFAA /* InformOnSetBool.swift */; };
+		B0AEB98F42D928D0BD131A2D /* OOInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CD4D1AE239515453FABE2C /* OOInt.swift */; };
+		B106B75B5C466CE9A21B6E80 /* WritableBoolMemorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669ED351EBCD6A156D72E35 /* WritableBoolMemorySpec.swift */; };
+		B1A863B034296855A24B10AC /* DoWritableStringSetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AAE0A5F1F11A432968B6FB /* DoWritableStringSetSpec.swift */; };
+		B2C1142EBB8B4E50D7C460D5 /* WritableFloatFromWritableKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D739C81822B7C04D473214AF /* WritableFloatFromWritableKeyValue.swift */; };
+		B407B0FCFBF2DE82DA9C145F /* BoolCached.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB05841EBDFECDF45555AA0 /* BoolCached.swift */; };
+		B6D29E747440A85CB26F3017 /* IntFromBoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C92B4262ED35316FC7A50B /* IntFromBoolSpec.swift */; };
+		B6F4C1E3B93C215BB0CD453B /* OOWritableInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364DFD858264356FC4453FEE /* OOWritableInt.swift */; };
+		BBC420C121F064BBABC5C704 /* FloatMultiplicated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F758F961DE7F9A6A80004E /* FloatMultiplicated.swift */; };
+		BC533F938C98FD0E47422824 /* IntDivided.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F84EFC0D227D9447C0D0E9 /* IntDivided.swift */; };
+		BCBF7EF98820662F061FE1AA /* FloatSubtracted.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375733C232595D4730CC21 /* FloatSubtracted.swift */; };
+		BD5AE3A92C26C4BC5BDF33B1 /* StringCachedSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31944A642E7FA28DBA36C818 /* StringCachedSpec.swift */; };
+		BEAE82806B5A4BF54020679F /* DoIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644629E72320E22DCB238D72 /* DoIF.swift */; };
+		C05D8C6F358F6D33E902CA29 /* FloatCached.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2CF81AA078CD921E5AA02D /* FloatCached.swift */; };
+		C2F50F041E409CEDC3BC7CA1 /* FloatFromKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D419CCE3DA404E89E609C /* FloatFromKeyValue.swift */; };
+		C6E42FBDD09180FFAE4B7BE8 /* HasWritableStringValueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7231DB7CF355C0B5EB7D68AA /* HasWritableStringValueSpec.swift */; };
+		C750712AC272315226E8FA00 /* OOFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE05819781EE444123D5EA /* OOFloat.swift */; };
+		C8AE0DA0661F6850D0F642FC /* DoWritableIntRemoveSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C52ED4A920CD4D4B5739F /* DoWritableIntRemoveSpec.swift */; };
+		CA2EE6A8AF8C884A781A9969 /* BoolIFSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6536FE0D741CCA5B7B5982 /* BoolIFSpec.swift */; };
+		CFF6956AEA4DFF7A9F1A32DE /* HasWritableIntValueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699B224902E748E9E28CE34 /* HasWritableIntValueSpec.swift */; };
+		D01FF58710FCC65338B7573B /* WritableBoolFromWritableKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C16244D5D9120185ADF5B40 /* WritableBoolFromWritableKeyValue.swift */; };
+		D4F5FB998F808719162EC5F4 /* WritableStringMemorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69E4A497539971E1C20EAD5 /* WritableStringMemorySpec.swift */; };
+		D5FC4864F93CF59168DF2103 /* HasWritableFloatValueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8672A634B64FE8DB3499D3DB /* HasWritableFloatValueSpec.swift */; };
+		D6B64477A4D6E4B80BFD4FEA /* FloatFromBoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3350D5CEE90D59E71DC7A7B /* FloatFromBoolSpec.swift */; };
+		D8AC2D7B35B9C91F2E2E4637 /* FloatCachedSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52231C35A69CB24CAB86A0 /* FloatCachedSpec.swift */; };
+		DD2CE5AF34D0A4112072C1EB /* StringFromFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506590F4A5229917212D08F /* StringFromFloat.swift */; };
+		DEA754289BEF5D39CEE1FDDB /* WritableKeyValuePrefixedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1082A02136D87531BFC12ABE /* WritableKeyValuePrefixedKeys.swift */; };
+		DEB6FAFB8064BCC04BD125AE /* IntFromKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C739C08D8651795E3EA41 /* IntFromKeyValue.swift */; };
+		E0FB5B160AB45B03D8E4BCEA /* FloatSummarized.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE18CEC01422B0D6F2847BC5 /* FloatSummarized.swift */; };
+		E4AD65ED05BB9F1339B2C7F6 /* IntFromStringSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC1686E57A721E895F9DA7 /* IntFromStringSpec.swift */; };
+		E73BDC5367D34E3840B11C86 /* OOWritableBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19DD999385B25848A3148D9 /* OOWritableBool.swift */; };
+		E768059D5A705495731C85A5 /* WritableBoolMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9286EF2F4808A0925825C4FD /* WritableBoolMemory.swift */; };
+		E7DB4A003237A10C1D836197 /* StringFromFloatSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3A1A0AF72D1FE3C8F6BF3 /* StringFromFloatSpec.swift */; };
+		E8C4A77CC5955AF30124C3E2 /* BoolCachedSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66EC5ADFB9E63ACF48FDFB4 /* BoolCachedSpec.swift */; };
+		E9BD18DEB775E68F60000DD9 /* OOKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8DF58E6EFF0F29229C1C51 /* OOKeyValue.swift */; };
+		EA15E19C663FE48A11CD4B42 /* DoWritableBoolSetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A920D5D7E20617E8D26E16C3 /* DoWritableBoolSetSpec.swift */; };
+		F190E1D0C39C7B2EB27C5079 /* OOWritableKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC740F09EFD0229AE2C384 /* OOWritableKeyValue.swift */; };
+		F1B059FE7415C3461B08C9B2 /* DoWritableStringRemoveSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E22C75A53AC7E0C4A72C31 /* DoWritableStringRemoveSpec.swift */; };
+		F23131A6044682706F15F504 /* OOWritableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0958A6985769A8A860029E5 /* OOWritableString.swift */; };
+		F28DDA4E032252ABFC36265D /* WritableStringFromWritableKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F2ECC503A422D7DC7A0EF /* WritableStringFromWritableKeyValue.swift */; };
+		F4B6D6E0C15C3EDE40F4EDC1 /* DoWritableFloatSetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E707551DBC911E4B3D3AC48 /* DoWritableFloatSetSpec.swift */; };
+		F7107FE2EF68194E5DA1375C /* TRUE.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13145B61E5BBA27A0A6AEC9 /* TRUE.swift */; };
+		FA37A99021D3D23980683886 /* IsEqualBools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9794BFB8EFDFA402746CEE /* IsEqualBools.swift */; };
+		FB8E78D559E879277C0345E4 /* IsEqualInts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1AA7CA6773622DE70E9468 /* IsEqualInts.swift */; };
+		FBD0F34FA5AA53E8A1CC5BC1 /* OOWritableFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4432480ED0CF18BEE18884 /* OOWritableFloat.swift */; };
+		FC5E384C9A99680612F6A812 /* WritableStringMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A0CA1715304DFFEEAC777C /* WritableStringMemory.swift */; };
+		FDDE427040D384C22C9124F2 /* DoWritableIntSetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391D05ED914D4B76710326B /* DoWritableIntSetSpec.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B714DA7FD84C3DF227E0CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E68A6414112DB3AC7B5E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F771FB09BEA4189C456376C;
+			remoteInfo = OOBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CE0494EFA00AA2DFA4FDCD5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00D337BF480BAA0E3FB921D8 /* DoWritableFloatRemove.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableFloatRemove.swift; sourceTree = "<group>"; };
+		00F2A9B2B912C142365E8D0A /* And.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = And.swift; sourceTree = "<group>"; };
+		01E9965AB801F41207BBECD5 /* InformNothing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformNothing.swift; sourceTree = "<group>"; };
+		050B9E96EAF3ADCA85575BEB /* StringIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringIF.swift; sourceTree = "<group>"; };
+		075B313D5E0852D86BD7687E /* FloatFromInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatFromInt.swift; sourceTree = "<group>"; };
+		09DA6A6B1B185FE0802B91AE /* Debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		0DD7868B80537EC78763E239 /* IntFromFloatSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntFromFloatSpec.swift; sourceTree = "<group>"; };
+		1082A02136D87531BFC12ABE /* WritableKeyValuePrefixedKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableKeyValuePrefixedKeys.swift; sourceTree = "<group>"; };
+		13CBBA4FB766A289B235640A /* DoWritableFloatSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableFloatSet.swift; sourceTree = "<group>"; };
+		1669ED351EBCD6A156D72E35 /* WritableBoolMemorySpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableBoolMemorySpec.swift; sourceTree = "<group>"; };
+		173177921A186C1ED3554DBE /* StringConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringConst.swift; sourceTree = "<group>"; };
+		17DFD29566DC152ABD4B5752 /* DoStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoStack.swift; sourceTree = "<group>"; };
+		180EBE7F7CBD471A1CDC800A /* IntFromBool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntFromBool.swift; sourceTree = "<group>"; };
+		1D69B87B9A8A9392EDCDC9AD /* BoolFromKeyValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolFromKeyValue.swift; sourceTree = "<group>"; };
+		1DC74ED126D226A2EF0BCDAC /* IntIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntIF.swift; sourceTree = "<group>"; };
+		210AF4A38182C86B30D6A559 /* IntFromFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntFromFloat.swift; sourceTree = "<group>"; };
+		23B80D78E8BDBBD8EC40F3F4 /* WritableFloatMemorySpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableFloatMemorySpec.swift; sourceTree = "<group>"; };
+		263B42DB74CC26E4E2B69D90 /* Debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		2692F023BC7E8BB472A41F6E /* HasWritableKeyValueValueSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableKeyValueValueSpec.swift; sourceTree = "<group>"; };
+		26F84EFC0D227D9447C0D0E9 /* IntDivided.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntDivided.swift; sourceTree = "<group>"; };
+		272F6B8DDB6703BCEE7DDA03 /* StringFromBoolSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringFromBoolSpec.swift; sourceTree = "<group>"; };
+		2B4CCF3301A1316C56FE8D21 /* DoStackSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoStackSpec.swift; sourceTree = "<group>"; };
+		2B54A67A26AA2B70B5ED8E24 /* BoolFromFloatSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolFromFloatSpec.swift; sourceTree = "<group>"; };
+		2B757E5268B698E93B36594B /* OOBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OOBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4F8A07581F1E3EB9CFAFAA /* InformOnSetBool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformOnSetBool.swift; sourceTree = "<group>"; };
+		3004AF22C34724C8F5D10934 /* BoolIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolIF.swift; sourceTree = "<group>"; };
+		31046F64D778AA61A75A8E8C /* DoGenericSnippet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoGenericSnippet.swift; sourceTree = "<group>"; };
+		31944A642E7FA28DBA36C818 /* StringCachedSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringCachedSpec.swift; sourceTree = "<group>"; };
+		348E9717D4DF6E6B13FFA655 /* IntCachedSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntCachedSpec.swift; sourceTree = "<group>"; };
+		364DFD858264356FC4453FEE /* OOWritableInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOWritableInt.swift; sourceTree = "<group>"; };
+		36CACC4EC8F52A98B1BA2FA8 /* OOString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOString.swift; sourceTree = "<group>"; };
+		38AAE0A5F1F11A432968B6FB /* DoWritableStringSetSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableStringSetSpec.swift; sourceTree = "<group>"; };
+		3975FDA01460C4033CA46537 /* BoolFromString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolFromString.swift; sourceTree = "<group>"; };
+		399D9569D696827A3048F818 /* DoWritableBoolSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableBoolSet.swift; sourceTree = "<group>"; };
+		3B3053A81BDAA9EBCE66252C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7E020FC58B48BBBAE072AE /* DoWritableBoolRemoveSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableBoolRemoveSpec.swift; sourceTree = "<group>"; };
+		3D4432480ED0CF18BEE18884 /* OOWritableFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOWritableFloat.swift; sourceTree = "<group>"; };
+		3E707551DBC911E4B3D3AC48 /* DoWritableFloatSetSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableFloatSetSpec.swift; sourceTree = "<group>"; };
+		3F7CF0B16E2E0BFAACAFE8B2 /* StringFromInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringFromInt.swift; sourceTree = "<group>"; };
+		3F9D419CCE3DA404E89E609C /* FloatFromKeyValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatFromKeyValue.swift; sourceTree = "<group>"; };
+		3FCE05819781EE444123D5EA /* OOFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOFloat.swift; sourceTree = "<group>"; };
+		407DD05D9AB776070D8A3620 /* Not.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Not.swift; sourceTree = "<group>"; };
+		4391D05ED914D4B76710326B /* DoWritableIntSetSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableIntSetSpec.swift; sourceTree = "<group>"; };
+		439C96E4B8314A05CD9484BF /* WritableKeyValueMemorySpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableKeyValueMemorySpec.swift; sourceTree = "<group>"; };
+		46BA8A5C40E88EF39131FAD9 /* OOBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F01D846466979DDD1AC237 /* WritableKeyValueMemory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableKeyValueMemory.swift; sourceTree = "<group>"; };
+		4AFB9294B3E8633F7604D518 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50780404492F74325A3803AA /* FloatFromStringSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatFromStringSpec.swift; sourceTree = "<group>"; };
+		5506590F4A5229917212D08F /* StringFromFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringFromFloat.swift; sourceTree = "<group>"; };
+		57C6D2399F13012332C9C06A /* IsEqualStrings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IsEqualStrings.swift; sourceTree = "<group>"; };
+		587B45E8FC230B2B5518655E /* FloatFromIntSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatFromIntSpec.swift; sourceTree = "<group>"; };
+		5A8345EFDA3DD62D89C31F72 /* DoIFSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoIFSpec.swift; sourceTree = "<group>"; };
+		5C1038C3D9822121D713F582 /* OOAny.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOAny.swift; sourceTree = "<group>"; };
+		5C71E44D0DEF1FBEF8DC263F /* InformOnSetString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformOnSetString.swift; sourceTree = "<group>"; };
+		5D202D3B1D437B7541432E16 /* StringIFSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringIFSpec.swift; sourceTree = "<group>"; };
+		5D243C4313E7D51CA59A3700 /* OOBool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOBool.swift; sourceTree = "<group>"; };
+		5D2BD77359F1AB864F384AF2 /* FloatIFSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatIFSpec.swift; sourceTree = "<group>"; };
+		6005CBE1AE57C79D73BD40D5 /* DoWritableIntSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableIntSet.swift; sourceTree = "<group>"; };
+		644629E72320E22DCB238D72 /* DoIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoIF.swift; sourceTree = "<group>"; };
+		6699B224902E748E9E28CE34 /* HasWritableIntValueSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableIntValueSpec.swift; sourceTree = "<group>"; };
+		6C0BD0B254D311B6F0A2E4B3 /* StringFromIntSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringFromIntSpec.swift; sourceTree = "<group>"; };
+		6C16244D5D9120185ADF5B40 /* WritableBoolFromWritableKeyValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableBoolFromWritableKeyValue.swift; sourceTree = "<group>"; };
+		6F23F096A84CC5A25B16020B /* HasWritableKeyValueValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableKeyValueValue.swift; sourceTree = "<group>"; };
+		6F60146288838D5710F2EDD9 /* WritableIntMemorySpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableIntMemorySpec.swift; sourceTree = "<group>"; };
+		6FCA2FBA4163FD5EFFC0CF97 /* Makefile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		71D0844C77D1E89CF886CE17 /* FloatDivided.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatDivided.swift; sourceTree = "<group>"; };
+		7231DB7CF355C0B5EB7D68AA /* HasWritableStringValueSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableStringValueSpec.swift; sourceTree = "<group>"; };
+		76E22C75A53AC7E0C4A72C31 /* DoWritableStringRemoveSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableStringRemoveSpec.swift; sourceTree = "<group>"; };
+		7B3F2ECC503A422D7DC7A0EF /* WritableStringFromWritableKeyValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableStringFromWritableKeyValue.swift; sourceTree = "<group>"; };
+		7C7BFB44D34B05EFD7221166 /* OOEventInform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOEventInform.swift; sourceTree = "<group>"; };
+		7CE956414EB022BD86F7C7AB /* WritableBoolFromWritableKeyValueSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableBoolFromWritableKeyValueSpec.swift; sourceTree = "<group>"; };
+		7F0D7AAB25717A12FF1AEBB9 /* BoolFromFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolFromFloat.swift; sourceTree = "<group>"; };
+		81970F053D28B8A577AAD8B9 /* DoWritableKeyValueSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableKeyValueSet.swift; sourceTree = "<group>"; };
+		81C6DD6A25067AEFEA9CF309 /* FloatConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatConst.swift; sourceTree = "<group>"; };
+		83AAFB89E7C69F0CB2DB2B1E /* WritableFloatMemory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableFloatMemory.swift; sourceTree = "<group>"; };
+		83F758F961DE7F9A6A80004E /* FloatMultiplicated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatMultiplicated.swift; sourceTree = "<group>"; };
+		84807706EE562D351D6054B5 /* StringFromKeyValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringFromKeyValue.swift; sourceTree = "<group>"; };
+		85FB12C3831B114CD312EFE2 /* DoWritableFloatRemoveSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableFloatRemoveSpec.swift; sourceTree = "<group>"; };
+		8672A634B64FE8DB3499D3DB /* HasWritableFloatValueSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableFloatValueSpec.swift; sourceTree = "<group>"; };
+		873C739C08D8651795E3EA41 /* IntFromKeyValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntFromKeyValue.swift; sourceTree = "<group>"; };
+		8831C28C4D8DD06289ACE3EA /* HasWritableFloatValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableFloatValue.swift; sourceTree = "<group>"; };
+		88D2038C891BDCE2B16C0115 /* WritableIntMemory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableIntMemory.swift; sourceTree = "<group>"; };
+		8BE2B5C4403DD2048D6072E8 /* FloatFromString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatFromString.swift; sourceTree = "<group>"; };
+		8CA301F85EE47C5895D8972E /* StringSummarized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringSummarized.swift; sourceTree = "<group>"; };
+		8E42B7724210818E4D2E995B /* StringSummarizedSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringSummarizedSpec.swift; sourceTree = "<group>"; };
+		8EB05841EBDFECDF45555AA0 /* BoolCached.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolCached.swift; sourceTree = "<group>"; };
+		8F01FC0E2C2B13475E5F9243 /* WritableKeyValuePrefixedKeysSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableKeyValuePrefixedKeysSpec.swift; sourceTree = "<group>"; };
+		901ED2901F681BD699525983 /* DoWritableStringRemove.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableStringRemove.swift; sourceTree = "<group>"; };
+		905738DF30BF10F336267F7F /* IntIFSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntIFSpec.swift; sourceTree = "<group>"; };
+		9286EF2F4808A0925825C4FD /* WritableBoolMemory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableBoolMemory.swift; sourceTree = "<group>"; };
+		94107E77EE61D8EB49C14EBB /* Release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		9823186C4FAE59F55D9B6574 /* IntFromString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntFromString.swift; sourceTree = "<group>"; };
+		99404EC60BB18AB6CF70BC3B /* OR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OR.swift; sourceTree = "<group>"; };
+		9B02FD3F76162C230730A243 /* HasWritableIntValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableIntValue.swift; sourceTree = "<group>"; };
+		9FCC740F09EFD0229AE2C384 /* OOWritableKeyValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOWritableKeyValue.swift; sourceTree = "<group>"; };
+		A2CC2A9051E8C0962091A077 /* DoNothing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoNothing.swift; sourceTree = "<group>"; };
+		A3CD4D1AE239515453FABE2C /* OOInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOInt.swift; sourceTree = "<group>"; };
+		A66EC5ADFB9E63ACF48FDFB4 /* BoolCachedSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolCachedSpec.swift; sourceTree = "<group>"; };
+		A67AB01CEFFFBCD81BABB405 /* IntConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntConst.swift; sourceTree = "<group>"; };
+		A920D5D7E20617E8D26E16C3 /* DoWritableBoolSetSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableBoolSetSpec.swift; sourceTree = "<group>"; };
+		AA47C7BDD923DCCC461D3C65 /* BoolFromInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolFromInt.swift; sourceTree = "<group>"; };
+		AA9794BFB8EFDFA402746CEE /* IsEqualBools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IsEqualBools.swift; sourceTree = "<group>"; };
+		AB460B3139445AB2A5052BFC /* IntSummarized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntSummarized.swift; sourceTree = "<group>"; };
+		AC1AA7CA6773622DE70E9468 /* IsEqualInts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IsEqualInts.swift; sourceTree = "<group>"; };
+		AC52231C35A69CB24CAB86A0 /* FloatCachedSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatCachedSpec.swift; sourceTree = "<group>"; };
+		AD8B3622F59F7F54B39E6F37 /* IntSubtracted.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntSubtracted.swift; sourceTree = "<group>"; };
+		AE0EA2B4DE0C5DB6E944A596 /* OOExecutable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOExecutable.swift; sourceTree = "<group>"; };
+		AE8E93D74F2F5A482EF88945 /* InformOnSetInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformOnSetInt.swift; sourceTree = "<group>"; };
+		AFD7325AB0A32BC85065555C /* BoolFromIntSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolFromIntSpec.swift; sourceTree = "<group>"; };
+		B3350D5CEE90D59E71DC7A7B /* FloatFromBoolSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatFromBoolSpec.swift; sourceTree = "<group>"; };
+		B8A0CA1715304DFFEEAC777C /* WritableStringMemory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableStringMemory.swift; sourceTree = "<group>"; };
+		BB17E5C72AFC5AD637B16B45 /* StringCached.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringCached.swift; sourceTree = "<group>"; };
+		BF9E60E43AEC611E0C5ABB43 /* IntMultiplicated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntMultiplicated.swift; sourceTree = "<group>"; };
+		C15A9E66D9C979081EC09C2A /* FALSE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FALSE.swift; sourceTree = "<group>"; };
+		C16F8521827ED210E58BBEB6 /* DoWritableBoolRemove.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableBoolRemove.swift; sourceTree = "<group>"; };
+		C19DD999385B25848A3148D9 /* OOWritableBool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOWritableBool.swift; sourceTree = "<group>"; };
+		C1BBE02CC84E5624F3575096 /* Debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		C237533518F8213089D28F55 /* OOBase.pxproject */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = OOBase.pxproject; sourceTree = "<group>"; };
+		C5C92B4262ED35316FC7A50B /* IntFromBoolSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntFromBoolSpec.swift; sourceTree = "<group>"; };
+		C657ACFE4B013EE97E7D077A /* InformOnSetFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformOnSetFloat.swift; sourceTree = "<group>"; };
+		C69E4A497539971E1C20EAD5 /* WritableStringMemorySpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableStringMemorySpec.swift; sourceTree = "<group>"; };
+		C78499566C173ADD7AEA322F /* BoolFromStringSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolFromStringSpec.swift; sourceTree = "<group>"; };
+		C96D4D90D4518F5857E8CEB1 /* DoWritableKeyValueSetSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableKeyValueSetSpec.swift; sourceTree = "<group>"; };
+		C9E3A1A0AF72D1FE3C8F6BF3 /* StringFromFloatSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringFromFloatSpec.swift; sourceTree = "<group>"; };
+		D031AFAFB072F249AD5BD22A /* HasWritableBoolValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableBoolValue.swift; sourceTree = "<group>"; };
+		D09CA68B7690C113FB702C78 /* Release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D13145B61E5BBA27A0A6AEC9 /* TRUE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TRUE.swift; sourceTree = "<group>"; };
+		D2E780B86E258FF1F1B15D34 /* HasWritableStringValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableStringValue.swift; sourceTree = "<group>"; };
+		D739C81822B7C04D473214AF /* WritableFloatFromWritableKeyValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableFloatFromWritableKeyValue.swift; sourceTree = "<group>"; };
+		D767BC6FB4DB7ED3DC0D1430 /* WritableIntFromWritableKeyValueSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableIntFromWritableKeyValueSpec.swift; sourceTree = "<group>"; };
+		D84C729A00100A285A850855 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D89CA987346388D297BF8359 /* HasWritableBoolValueSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableBoolValueSpec.swift; sourceTree = "<group>"; };
+		DCAC9387D4FD32E7420C91CB /* Release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		DD9F662F91377A52EC4EA53E /* BoolConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolConst.swift; sourceTree = "<group>"; };
+		DE5F71BB589D5E4BAB4AC16C /* DoWritableKeyValueRemoveSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableKeyValueRemoveSpec.swift; sourceTree = "<group>"; };
+		DE7F1A3F40AD9D7A15C8625F /* WritableIntFromWritableKeyValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableIntFromWritableKeyValue.swift; sourceTree = "<group>"; };
+		DEB9F5D6814465FD371B4ACD /* IsEmptyString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IsEmptyString.swift; sourceTree = "<group>"; };
+		E0958A6985769A8A860029E5 /* OOWritableString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOWritableString.swift; sourceTree = "<group>"; };
+		E37078CA020BAB44054BFC9D /* .gitignore */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E72298AB539F7EE5B45E337D /* IsEqualFloats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IsEqualFloats.swift; sourceTree = "<group>"; };
+		E8AF1F4E673DE5332E76B2C9 /* IntCached.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntCached.swift; sourceTree = "<group>"; };
+		EB52E00D3079A9D283183473 /* FloatIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatIF.swift; sourceTree = "<group>"; };
+		EB6536FE0D741CCA5B7B5982 /* BoolIFSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoolIFSpec.swift; sourceTree = "<group>"; };
+		ED1C52ED4A920CD4D4B5739F /* DoWritableIntRemoveSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableIntRemoveSpec.swift; sourceTree = "<group>"; };
+		ED8DF58E6EFF0F29229C1C51 /* OOKeyValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOKeyValue.swift; sourceTree = "<group>"; };
+		EEC5B9227A99653DDF89C0B9 /* StringFromBool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringFromBool.swift; sourceTree = "<group>"; };
+		F2375733C232595D4730CC21 /* FloatSubtracted.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatSubtracted.swift; sourceTree = "<group>"; };
+		F30501D1DBE47585707B9363 /* FloatFromBool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatFromBool.swift; sourceTree = "<group>"; };
+		F3F448C4DE6406C3AFB1C142 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F5310D914FEBD27D27C6BB64 /* DoWritableStringSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableStringSet.swift; sourceTree = "<group>"; };
+		F8AB3148848A899FD2FDB5BF /* WritableStringFromWritableKeyValueSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableStringFromWritableKeyValueSpec.swift; sourceTree = "<group>"; };
+		F9209011CE668D64C05844D1 /* DoWritableIntRemove.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableIntRemove.swift; sourceTree = "<group>"; };
+		FB2CF81AA078CD921E5AA02D /* FloatCached.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatCached.swift; sourceTree = "<group>"; };
+		FCEC1686E57A721E895F9DA7 /* IntFromStringSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntFromStringSpec.swift; sourceTree = "<group>"; };
+		FD89C84D23D5D0A66E2A4AE2 /* DoWritableKeyValueRemove.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableKeyValueRemove.swift; sourceTree = "<group>"; };
+		FE18CEC01422B0D6F2847BC5 /* FloatSummarized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatSummarized.swift; sourceTree = "<group>"; };
+		FF49FB8B6E95B0C0200839BE /* WritableFloatFromWritableKeyValueSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableFloatFromWritableKeyValueSpec.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31AE62130DC3F127EDBA9E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDA5F2514A174B4243639D3 /* OOBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59646D193B02E97DB468549F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092D399E58C0F48D1C1AB70A /* FunctionsInt */ = {
+			isa = PBXGroup;
+			children = (
+				AA47C7BDD923DCCC461D3C65 /* BoolFromInt.swift */,
+				AFD7325AB0A32BC85065555C /* BoolFromIntSpec.swift */,
+				075B313D5E0852D86BD7687E /* FloatFromInt.swift */,
+				587B45E8FC230B2B5518655E /* FloatFromIntSpec.swift */,
+				E8AF1F4E673DE5332E76B2C9 /* IntCached.swift */,
+				348E9717D4DF6E6B13FFA655 /* IntCachedSpec.swift */,
+				26F84EFC0D227D9447C0D0E9 /* IntDivided.swift */,
+				1DC74ED126D226A2EF0BCDAC /* IntIF.swift */,
+				905738DF30BF10F336267F7F /* IntIFSpec.swift */,
+				BF9E60E43AEC611E0C5ABB43 /* IntMultiplicated.swift */,
+				AD8B3622F59F7F54B39E6F37 /* IntSubtracted.swift */,
+				AB460B3139445AB2A5052BFC /* IntSummarized.swift */,
+				AC1AA7CA6773622DE70E9468 /* IsEqualInts.swift */,
+				3F7CF0B16E2E0BFAACAFE8B2 /* StringFromInt.swift */,
+				6C0BD0B254D311B6F0A2E4B3 /* StringFromIntSpec.swift */,
+			);
+			path = FunctionsInt;
+			sourceTree = "<group>";
+		};
+		17ED3A0F204FD16C48E7B9F2 /* EventInform */ = {
+			isa = PBXGroup;
+			children = (
+				A55C54CAA8E6AC5D1AFED466 /* _Protocol */,
+				538EE0C4F6E3C25B70B6F5FA /* ImplDataWritable */,
+				349D8876CCF30AD89D0AFAAE /* ImplNothing */,
+			);
+			path = EventInform;
+			sourceTree = "<group>";
+		};
+		28357305FF1D4A3C00D42ADE /* _Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5C1038C3D9822121D713F582 /* OOAny.swift */,
+				5D243C4313E7D51CA59A3700 /* OOBool.swift */,
+				3FCE05819781EE444123D5EA /* OOFloat.swift */,
+				A3CD4D1AE239515453FABE2C /* OOInt.swift */,
+				ED8DF58E6EFF0F29229C1C51 /* OOKeyValue.swift */,
+				36CACC4EC8F52A98B1BA2FA8 /* OOString.swift */,
+			);
+			path = _Protocol;
+			sourceTree = "<group>";
+		};
+		2AFD6EE30791CDE200B5C5E4 /* FunctionsWritableString */ = {
+			isa = PBXGroup;
+			children = (
+				901ED2901F681BD699525983 /* DoWritableStringRemove.swift */,
+				76E22C75A53AC7E0C4A72C31 /* DoWritableStringRemoveSpec.swift */,
+				F5310D914FEBD27D27C6BB64 /* DoWritableStringSet.swift */,
+				38AAE0A5F1F11A432968B6FB /* DoWritableStringSetSpec.swift */,
+				D2E780B86E258FF1F1B15D34 /* HasWritableStringValue.swift */,
+				7231DB7CF355C0B5EB7D68AA /* HasWritableStringValueSpec.swift */,
+			);
+			path = FunctionsWritableString;
+			sourceTree = "<group>";
+		};
+		2E2E493946F1FD9B3C54C28C /* ImplInMemory */ = {
+			isa = PBXGroup;
+			children = (
+				9286EF2F4808A0925825C4FD /* WritableBoolMemory.swift */,
+				1669ED351EBCD6A156D72E35 /* WritableBoolMemorySpec.swift */,
+				83AAFB89E7C69F0CB2DB2B1E /* WritableFloatMemory.swift */,
+				23B80D78E8BDBBD8EC40F3F4 /* WritableFloatMemorySpec.swift */,
+				88D2038C891BDCE2B16C0115 /* WritableIntMemory.swift */,
+				6F60146288838D5710F2EDD9 /* WritableIntMemorySpec.swift */,
+				46F01D846466979DDD1AC237 /* WritableKeyValueMemory.swift */,
+				439C96E4B8314A05CD9484BF /* WritableKeyValueMemorySpec.swift */,
+				B8A0CA1715304DFFEEAC777C /* WritableStringMemory.swift */,
+				C69E4A497539971E1C20EAD5 /* WritableStringMemorySpec.swift */,
+			);
+			path = ImplInMemory;
+			sourceTree = "<group>";
+		};
+		2E7ED51992F56C0CA03B5184 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				09DA6A6B1B185FE0802B91AE /* Debug.xcconfig */,
+				94107E77EE61D8EB49C14EBB /* Release.xcconfig */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		349D8876CCF30AD89D0AFAAE /* ImplNothing */ = {
+			isa = PBXGroup;
+			children = (
+				01E9965AB801F41207BBECD5 /* InformNothing.swift */,
+			);
+			path = ImplNothing;
+			sourceTree = "<group>";
+		};
+		3A49501F3CF304B8AC88C92A /* FunctionsBool */ = {
+			isa = PBXGroup;
+			children = (
+				00F2A9B2B912C142365E8D0A /* And.swift */,
+				8EB05841EBDFECDF45555AA0 /* BoolCached.swift */,
+				A66EC5ADFB9E63ACF48FDFB4 /* BoolCachedSpec.swift */,
+				3004AF22C34724C8F5D10934 /* BoolIF.swift */,
+				EB6536FE0D741CCA5B7B5982 /* BoolIFSpec.swift */,
+				F30501D1DBE47585707B9363 /* FloatFromBool.swift */,
+				B3350D5CEE90D59E71DC7A7B /* FloatFromBoolSpec.swift */,
+				180EBE7F7CBD471A1CDC800A /* IntFromBool.swift */,
+				C5C92B4262ED35316FC7A50B /* IntFromBoolSpec.swift */,
+				AA9794BFB8EFDFA402746CEE /* IsEqualBools.swift */,
+				407DD05D9AB776070D8A3620 /* Not.swift */,
+				99404EC60BB18AB6CF70BC3B /* OR.swift */,
+				EEC5B9227A99653DDF89C0B9 /* StringFromBool.swift */,
+				272F6B8DDB6703BCEE7DDA03 /* StringFromBoolSpec.swift */,
+			);
+			path = FunctionsBool;
+			sourceTree = "<group>";
+		};
+		3AFBB80306C96DCC1A03613F /* TargetTests */ = {
+			isa = PBXGroup;
+			children = (
+				263B42DB74CC26E4E2B69D90 /* Debug.xcconfig */,
+				3B3053A81BDAA9EBCE66252C /* Info.plist */,
+				DCAC9387D4FD32E7420C91CB /* Release.xcconfig */,
+			);
+			path = TargetTests;
+			sourceTree = "<group>";
+		};
+		3F187F8CAEB0DEB91DDAA8BC /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				C1BBE02CC84E5624F3575096 /* Debug.xcconfig */,
+				4AFB9294B3E8633F7604D518 /* Info.plist */,
+				D09CA68B7690C113FB702C78 /* Release.xcconfig */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		5234B613B4205772577E4513 /* _Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AE0EA2B4DE0C5DB6E944A596 /* OOExecutable.swift */,
+			);
+			path = _Protocol;
+			sourceTree = "<group>";
+		};
+		5299A6465714D5BD9896CE06 /* _Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C19DD999385B25848A3148D9 /* OOWritableBool.swift */,
+				3D4432480ED0CF18BEE18884 /* OOWritableFloat.swift */,
+				364DFD858264356FC4453FEE /* OOWritableInt.swift */,
+				9FCC740F09EFD0229AE2C384 /* OOWritableKeyValue.swift */,
+				E0958A6985769A8A860029E5 /* OOWritableString.swift */,
+			);
+			path = _Protocol;
+			sourceTree = "<group>";
+		};
+		538EE0C4F6E3C25B70B6F5FA /* ImplDataWritable */ = {
+			isa = PBXGroup;
+			children = (
+				2C4F8A07581F1E3EB9CFAFAA /* InformOnSetBool.swift */,
+				C657ACFE4B013EE97E7D077A /* InformOnSetFloat.swift */,
+				AE8E93D74F2F5A482EF88945 /* InformOnSetInt.swift */,
+				5C71E44D0DEF1FBEF8DC263F /* InformOnSetString.swift */,
+			);
+			path = ImplDataWritable;
+			sourceTree = "<group>";
+		};
+		583E3BB7CC0FD36370F48EC4 /* FunctionsWritableKeyValue */ = {
+			isa = PBXGroup;
+			children = (
+				E2717FF2346FC80B29D5EAC9 /* Conversion */,
+				FD89C84D23D5D0A66E2A4AE2 /* DoWritableKeyValueRemove.swift */,
+				DE5F71BB589D5E4BAB4AC16C /* DoWritableKeyValueRemoveSpec.swift */,
+				81970F053D28B8A577AAD8B9 /* DoWritableKeyValueSet.swift */,
+				C96D4D90D4518F5857E8CEB1 /* DoWritableKeyValueSetSpec.swift */,
+				6F23F096A84CC5A25B16020B /* HasWritableKeyValueValue.swift */,
+				2692F023BC7E8BB472A41F6E /* HasWritableKeyValueValueSpec.swift */,
+				1082A02136D87531BFC12ABE /* WritableKeyValuePrefixedKeys.swift */,
+				8F01FC0E2C2B13475E5F9243 /* WritableKeyValuePrefixedKeysSpec.swift */,
+			);
+			path = FunctionsWritableKeyValue;
+			sourceTree = "<group>";
+		};
+		6B63C7435140DEC79BD48B3C /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				31046F64D778AA61A75A8E8C /* DoGenericSnippet.swift */,
+				644629E72320E22DCB238D72 /* DoIF.swift */,
+				5A8345EFDA3DD62D89C31F72 /* DoIFSpec.swift */,
+				17DFD29566DC152ABD4B5752 /* DoStack.swift */,
+				2B4CCF3301A1316C56FE8D21 /* DoStackSpec.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		82BD00B0BF09C5ECD1727DE4 /* ImplNothing */ = {
+			isa = PBXGroup;
+			children = (
+				A2CC2A9051E8C0962091A077 /* DoNothing.swift */,
+			);
+			path = ImplNothing;
+			sourceTree = "<group>";
+		};
+		9B400A4957DD0E04B88895F5 /* DataWritable */ = {
+			isa = PBXGroup;
+			children = (
+				5299A6465714D5BD9896CE06 /* _Protocol */,
+				ABCAEE9121F5B40FAA8B07AF /* FunctionsWritableBool */,
+				EF5D98D66121DC634EFFB036 /* FunctionsWritableFloat */,
+				A58A9608FF89A3B1466A02EC /* FunctionsWritableInt */,
+				583E3BB7CC0FD36370F48EC4 /* FunctionsWritableKeyValue */,
+				2AFD6EE30791CDE200B5C5E4 /* FunctionsWritableString */,
+				2E2E493946F1FD9B3C54C28C /* ImplInMemory */,
+			);
+			path = DataWritable;
+			sourceTree = "<group>";
+		};
+		A55C54CAA8E6AC5D1AFED466 /* _Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7C7BFB44D34B05EFD7221166 /* OOEventInform.swift */,
+			);
+			path = _Protocol;
+			sourceTree = "<group>";
+		};
+		A58A9608FF89A3B1466A02EC /* FunctionsWritableInt */ = {
+			isa = PBXGroup;
+			children = (
+				F9209011CE668D64C05844D1 /* DoWritableIntRemove.swift */,
+				ED1C52ED4A920CD4D4B5739F /* DoWritableIntRemoveSpec.swift */,
+				6005CBE1AE57C79D73BD40D5 /* DoWritableIntSet.swift */,
+				4391D05ED914D4B76710326B /* DoWritableIntSetSpec.swift */,
+				9B02FD3F76162C230730A243 /* HasWritableIntValue.swift */,
+				6699B224902E748E9E28CE34 /* HasWritableIntValueSpec.swift */,
+			);
+			path = FunctionsWritableInt;
+			sourceTree = "<group>";
+		};
+		AA4B29AB38B14834F2D33624 /* FunctionsKeyValue */ = {
+			isa = PBXGroup;
+			children = (
+				1D69B87B9A8A9392EDCDC9AD /* BoolFromKeyValue.swift */,
+				3F9D419CCE3DA404E89E609C /* FloatFromKeyValue.swift */,
+				873C739C08D8651795E3EA41 /* IntFromKeyValue.swift */,
+				84807706EE562D351D6054B5 /* StringFromKeyValue.swift */,
+			);
+			path = FunctionsKeyValue;
+			sourceTree = "<group>";
+		};
+		ABCAEE9121F5B40FAA8B07AF /* FunctionsWritableBool */ = {
+			isa = PBXGroup;
+			children = (
+				C16F8521827ED210E58BBEB6 /* DoWritableBoolRemove.swift */,
+				3C7E020FC58B48BBBAE072AE /* DoWritableBoolRemoveSpec.swift */,
+				399D9569D696827A3048F818 /* DoWritableBoolSet.swift */,
+				A920D5D7E20617E8D26E16C3 /* DoWritableBoolSetSpec.swift */,
+				D031AFAFB072F249AD5BD22A /* HasWritableBoolValue.swift */,
+				D89CA987346388D297BF8359 /* HasWritableBoolValueSpec.swift */,
+			);
+			path = FunctionsWritableBool;
+			sourceTree = "<group>";
+		};
+		ACDBE685CA23507A5AA9A281 /* DataReadonly */ = {
+			isa = PBXGroup;
+			children = (
+				28357305FF1D4A3C00D42ADE /* _Protocol */,
+				3A49501F3CF304B8AC88C92A /* FunctionsBool */,
+				EC4BB8B931E226C6D8CA9889 /* FunctionsFloat */,
+				092D399E58C0F48D1C1AB70A /* FunctionsInt */,
+				AA4B29AB38B14834F2D33624 /* FunctionsKeyValue */,
+				F278F6713DEDB2D74CA02587 /* FunctionsString */,
+				C335FF09845814BE24E633F0 /* ImplConst */,
+			);
+			path = DataReadonly;
+			sourceTree = "<group>";
+		};
+		AE4A8BB8208656BCF784AB91 /* Executable */ = {
+			isa = PBXGroup;
+			children = (
+				5234B613B4205772577E4513 /* _Protocol */,
+				6B63C7435140DEC79BD48B3C /* Functions */,
+				82BD00B0BF09C5ECD1727DE4 /* ImplNothing */,
+			);
+			path = Executable;
+			sourceTree = "<group>";
+		};
+		B7A20C8BD552C3C370005950 = {
+			isa = PBXGroup;
+			children = (
+				D2ACB4D6BB4F9A90C58D6076 /* . */,
+				C9E40F8C766B5CD6F4CABF09 /* Configuration */,
+				F809B793BA4BA107B490404C /* Frameworks */,
+				F7A72B8A6E8B8801159DEA4C /* Products */,
+				EEA52313E60F6868DF7A06A3 /* Sources */,
+			);
+			sourceTree = "<group>";
+		};
+		C335FF09845814BE24E633F0 /* ImplConst */ = {
+			isa = PBXGroup;
+			children = (
+				DD9F662F91377A52EC4EA53E /* BoolConst.swift */,
+				C15A9E66D9C979081EC09C2A /* FALSE.swift */,
+				81C6DD6A25067AEFEA9CF309 /* FloatConst.swift */,
+				A67AB01CEFFFBCD81BABB405 /* IntConst.swift */,
+				173177921A186C1ED3554DBE /* StringConst.swift */,
+				D13145B61E5BBA27A0A6AEC9 /* TRUE.swift */,
+			);
+			path = ImplConst;
+			sourceTree = "<group>";
+		};
+		C9E40F8C766B5CD6F4CABF09 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2E7ED51992F56C0CA03B5184 /* Project */,
+				3F187F8CAEB0DEB91DDAA8BC /* Target */,
+				3AFBB80306C96DCC1A03613F /* TargetTests */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		D2ACB4D6BB4F9A90C58D6076 /* . */ = {
+			isa = PBXGroup;
+			children = (
+				E37078CA020BAB44054BFC9D /* .gitignore */,
+				D84C729A00100A285A850855 /* LICENSE */,
+				6FCA2FBA4163FD5EFFC0CF97 /* Makefile */,
+				C237533518F8213089D28F55 /* OOBase.pxproject */,
+				F3F448C4DE6406C3AFB1C142 /* README.md */,
+			);
+			path = .;
+			sourceTree = "<group>";
+		};
+		E2717FF2346FC80B29D5EAC9 /* Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				6C16244D5D9120185ADF5B40 /* WritableBoolFromWritableKeyValue.swift */,
+				7CE956414EB022BD86F7C7AB /* WritableBoolFromWritableKeyValueSpec.swift */,
+				D739C81822B7C04D473214AF /* WritableFloatFromWritableKeyValue.swift */,
+				FF49FB8B6E95B0C0200839BE /* WritableFloatFromWritableKeyValueSpec.swift */,
+				DE7F1A3F40AD9D7A15C8625F /* WritableIntFromWritableKeyValue.swift */,
+				D767BC6FB4DB7ED3DC0D1430 /* WritableIntFromWritableKeyValueSpec.swift */,
+				7B3F2ECC503A422D7DC7A0EF /* WritableStringFromWritableKeyValue.swift */,
+				F8AB3148848A899FD2FDB5BF /* WritableStringFromWritableKeyValueSpec.swift */,
+			);
+			path = Conversion;
+			sourceTree = "<group>";
+		};
+		EC4BB8B931E226C6D8CA9889 /* FunctionsFloat */ = {
+			isa = PBXGroup;
+			children = (
+				7F0D7AAB25717A12FF1AEBB9 /* BoolFromFloat.swift */,
+				2B54A67A26AA2B70B5ED8E24 /* BoolFromFloatSpec.swift */,
+				FB2CF81AA078CD921E5AA02D /* FloatCached.swift */,
+				AC52231C35A69CB24CAB86A0 /* FloatCachedSpec.swift */,
+				71D0844C77D1E89CF886CE17 /* FloatDivided.swift */,
+				EB52E00D3079A9D283183473 /* FloatIF.swift */,
+				5D2BD77359F1AB864F384AF2 /* FloatIFSpec.swift */,
+				83F758F961DE7F9A6A80004E /* FloatMultiplicated.swift */,
+				F2375733C232595D4730CC21 /* FloatSubtracted.swift */,
+				FE18CEC01422B0D6F2847BC5 /* FloatSummarized.swift */,
+				210AF4A38182C86B30D6A559 /* IntFromFloat.swift */,
+				0DD7868B80537EC78763E239 /* IntFromFloatSpec.swift */,
+				E72298AB539F7EE5B45E337D /* IsEqualFloats.swift */,
+				5506590F4A5229917212D08F /* StringFromFloat.swift */,
+				C9E3A1A0AF72D1FE3C8F6BF3 /* StringFromFloatSpec.swift */,
+			);
+			path = FunctionsFloat;
+			sourceTree = "<group>";
+		};
+		EEA52313E60F6868DF7A06A3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBE685CA23507A5AA9A281 /* DataReadonly */,
+				9B400A4957DD0E04B88895F5 /* DataWritable */,
+				17ED3A0F204FD16C48E7B9F2 /* EventInform */,
+				AE4A8BB8208656BCF784AB91 /* Executable */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EF5D98D66121DC634EFFB036 /* FunctionsWritableFloat */ = {
+			isa = PBXGroup;
+			children = (
+				00D337BF480BAA0E3FB921D8 /* DoWritableFloatRemove.swift */,
+				85FB12C3831B114CD312EFE2 /* DoWritableFloatRemoveSpec.swift */,
+				13CBBA4FB766A289B235640A /* DoWritableFloatSet.swift */,
+				3E707551DBC911E4B3D3AC48 /* DoWritableFloatSetSpec.swift */,
+				8831C28C4D8DD06289ACE3EA /* HasWritableFloatValue.swift */,
+				8672A634B64FE8DB3499D3DB /* HasWritableFloatValueSpec.swift */,
+			);
+			path = FunctionsWritableFloat;
+			sourceTree = "<group>";
+		};
+		F278F6713DEDB2D74CA02587 /* FunctionsString */ = {
+			isa = PBXGroup;
+			children = (
+				3975FDA01460C4033CA46537 /* BoolFromString.swift */,
+				C78499566C173ADD7AEA322F /* BoolFromStringSpec.swift */,
+				8BE2B5C4403DD2048D6072E8 /* FloatFromString.swift */,
+				50780404492F74325A3803AA /* FloatFromStringSpec.swift */,
+				9823186C4FAE59F55D9B6574 /* IntFromString.swift */,
+				FCEC1686E57A721E895F9DA7 /* IntFromStringSpec.swift */,
+				DEB9F5D6814465FD371B4ACD /* IsEmptyString.swift */,
+				57C6D2399F13012332C9C06A /* IsEqualStrings.swift */,
+				BB17E5C72AFC5AD637B16B45 /* StringCached.swift */,
+				31944A642E7FA28DBA36C818 /* StringCachedSpec.swift */,
+				050B9E96EAF3ADCA85575BEB /* StringIF.swift */,
+				5D202D3B1D437B7541432E16 /* StringIFSpec.swift */,
+				8CA301F85EE47C5895D8972E /* StringSummarized.swift */,
+				8E42B7724210818E4D2E995B /* StringSummarizedSpec.swift */,
+			);
+			path = FunctionsString;
+			sourceTree = "<group>";
+		};
+		F7A72B8A6E8B8801159DEA4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B757E5268B698E93B36594B /* OOBase.framework */,
+				46BA8A5C40E88EF39131FAD9 /* OOBaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F809B793BA4BA107B490404C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		050694CA7839623FA661B8DC /* OOBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A8C3F9935A45E8D78DA390 /* Build configuration list for PBXNativeTarget "OOBaseTests" */;
+			buildPhases = (
+				7D367C5C78AD9AB14B886D2C /* Sources */,
+				31AE62130DC3F127EDBA9E65 /* Frameworks */,
+				B6BA4D79C8C53E82DFBD4D57 /* Resources */,
+				8CE0494EFA00AA2DFA4FDCD5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208EA35FCCCDBFC644FD70C3 /* PBXTargetDependency */,
+			);
+			name = OOBaseTests;
+			productName = OOBaseTests;
+			productReference = 46BA8A5C40E88EF39131FAD9 /* OOBaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F771FB09BEA4189C456376C /* OOBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EB069806F3E131E7150246 /* Build configuration list for PBXNativeTarget "OOBase" */;
+			buildPhases = (
+				4038D63607055C4C69EF6953 /* Sources */,
+				59646D193B02E97DB468549F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OOBase;
+			productName = OOBase;
+			productReference = 2B757E5268B698E93B36594B /* OOBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E68A6414112DB3AC7B5E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					050694CA7839623FA661B8DC = {
+						ProvisioningStyle = Automatic;
+					};
+					7F771FB09BEA4189C456376C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C9321AF3C193A1085A5B40AB /* Build configuration list for PBXProject "OOBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7A20C8BD552C3C370005950;
+			productRefGroup = F7A72B8A6E8B8801159DEA4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F771FB09BEA4189C456376C /* OOBase */,
+				050694CA7839623FA661B8DC /* OOBaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6BA4D79C8C53E82DFBD4D57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4038D63607055C4C69EF6953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5389C639B35CCA5393F76D6C /* And.swift in Sources */,
+				B407B0FCFBF2DE82DA9C145F /* BoolCached.swift in Sources */,
+				28C0970F057B6815C821A43C /* BoolConst.swift in Sources */,
+				467BFE69A48D94FE7924D185 /* BoolFromFloat.swift in Sources */,
+				9663FD05C6576FDE20EB0C46 /* BoolFromInt.swift in Sources */,
+				0A4FDF4ECD2DC9EBBDE1E9BE /* BoolFromKeyValue.swift in Sources */,
+				16D67F04A9ADBF1C2B10F490 /* BoolFromString.swift in Sources */,
+				2BF53636FCFE28C5BF20E46D /* BoolIF.swift in Sources */,
+				7B81906EACD0C1D53B40A44F /* DoGenericSnippet.swift in Sources */,
+				BEAE82806B5A4BF54020679F /* DoIF.swift in Sources */,
+				2B3460518C37B5C272EFB84C /* DoNothing.swift in Sources */,
+				907DB910AF64BF000E297FCC /* DoStack.swift in Sources */,
+				7503A649AE97D84D66074915 /* DoWritableBoolRemove.swift in Sources */,
+				187E6DD53F6F07F10B766210 /* DoWritableBoolSet.swift in Sources */,
+				15C058FF9A613EE5359571BC /* DoWritableFloatRemove.swift in Sources */,
+				90C9C2164A1229B6C48F06C3 /* DoWritableFloatSet.swift in Sources */,
+				519F8ABF28AF6DBCCDF7478D /* DoWritableIntRemove.swift in Sources */,
+				7A92420AFFA9AB13843AE46E /* DoWritableIntSet.swift in Sources */,
+				82A6CC488D4FEA65023D5F36 /* DoWritableKeyValueRemove.swift in Sources */,
+				9325FF86F76674287CCC21BE /* DoWritableKeyValueSet.swift in Sources */,
+				01C58F53F0C8772413B7C1C0 /* DoWritableStringRemove.swift in Sources */,
+				A794CBD4CF9534B6D66DDE24 /* DoWritableStringSet.swift in Sources */,
+				8BDE689783B1A22F7FF7DC49 /* FALSE.swift in Sources */,
+				C05D8C6F358F6D33E902CA29 /* FloatCached.swift in Sources */,
+				8BA46BF1E8E8D17886F82B8D /* FloatConst.swift in Sources */,
+				26F1106E18B83AE971375299 /* FloatDivided.swift in Sources */,
+				259C343A90FE3E011CE446A7 /* FloatFromBool.swift in Sources */,
+				5E9E870C6550D422770B7840 /* FloatFromInt.swift in Sources */,
+				C2F50F041E409CEDC3BC7CA1 /* FloatFromKeyValue.swift in Sources */,
+				8914ADCA879DD659C07B0C3B /* FloatFromString.swift in Sources */,
+				52ECDB1E2C4EC65AA2EC52E8 /* FloatIF.swift in Sources */,
+				BBC420C121F064BBABC5C704 /* FloatMultiplicated.swift in Sources */,
+				BCBF7EF98820662F061FE1AA /* FloatSubtracted.swift in Sources */,
+				E0FB5B160AB45B03D8E4BCEA /* FloatSummarized.swift in Sources */,
+				36181289C53D06EB9E7A6D24 /* HasWritableBoolValue.swift in Sources */,
+				7B4DF5231F0DAD7E399AE048 /* HasWritableFloatValue.swift in Sources */,
+				7C3322AFA3937DA466E656E8 /* HasWritableIntValue.swift in Sources */,
+				329AEAED95885F5F5F121159 /* HasWritableKeyValueValue.swift in Sources */,
+				27B1A73C0AD411AE6CFB5402 /* HasWritableStringValue.swift in Sources */,
+				38FD4CC8E7F8BF7A031E3548 /* InformNothing.swift in Sources */,
+				B0618785FC2B6DEA29D32AD6 /* InformOnSetBool.swift in Sources */,
+				65CF16ED0BA10486D71CA69E /* InformOnSetFloat.swift in Sources */,
+				8815265006E490AB9CF86A32 /* InformOnSetInt.swift in Sources */,
+				8C10E34EF5D3B1A24DDE349A /* InformOnSetString.swift in Sources */,
+				1D1F82F0B718B2FF7497D48D /* IntCached.swift in Sources */,
+				0AE997C2CFE45C5C45DFE1FF /* IntConst.swift in Sources */,
+				BC533F938C98FD0E47422824 /* IntDivided.swift in Sources */,
+				240C0E6D33E3F8DC70B896F8 /* IntFromBool.swift in Sources */,
+				956810DE1A437D4DBC7EE469 /* IntFromFloat.swift in Sources */,
+				DEB6FAFB8064BCC04BD125AE /* IntFromKeyValue.swift in Sources */,
+				3DFC8448B102CF660D342B06 /* IntFromString.swift in Sources */,
+				A6FED5433AE6232641065997 /* IntIF.swift in Sources */,
+				5065869CCB721CB03775C96C /* IntMultiplicated.swift in Sources */,
+				0FC78C9D1B6A0660CB1F2AE5 /* IntSubtracted.swift in Sources */,
+				9617C3E8D4904BAFDB07BB2A /* IntSummarized.swift in Sources */,
+				1B65D3DED60A75EC13FFD969 /* IsEmptyString.swift in Sources */,
+				FA37A99021D3D23980683886 /* IsEqualBools.swift in Sources */,
+				4774604EF9972DEE7FF942FB /* IsEqualFloats.swift in Sources */,
+				FB8E78D559E879277C0345E4 /* IsEqualInts.swift in Sources */,
+				2820BD353D426E79CD6A66D8 /* IsEqualStrings.swift in Sources */,
+				2A20098F4BDC8B58D6150E06 /* Not.swift in Sources */,
+				66494FBE98D617345593F99F /* OOAny.swift in Sources */,
+				06E5CBF0E140871120DADA78 /* OOBool.swift in Sources */,
+				0B95B51FEFF046AFD879BE22 /* OOEventInform.swift in Sources */,
+				10553B70910469C5636B2258 /* OOExecutable.swift in Sources */,
+				C750712AC272315226E8FA00 /* OOFloat.swift in Sources */,
+				B0AEB98F42D928D0BD131A2D /* OOInt.swift in Sources */,
+				E9BD18DEB775E68F60000DD9 /* OOKeyValue.swift in Sources */,
+				3A3172E7A2996796D45629C8 /* OOString.swift in Sources */,
+				E73BDC5367D34E3840B11C86 /* OOWritableBool.swift in Sources */,
+				FBD0F34FA5AA53E8A1CC5BC1 /* OOWritableFloat.swift in Sources */,
+				B6F4C1E3B93C215BB0CD453B /* OOWritableInt.swift in Sources */,
+				F190E1D0C39C7B2EB27C5079 /* OOWritableKeyValue.swift in Sources */,
+				F23131A6044682706F15F504 /* OOWritableString.swift in Sources */,
+				3CB74CCC1A44B8C92E152667 /* OR.swift in Sources */,
+				04A089684B53A2727724DEE7 /* StringCached.swift in Sources */,
+				84A5D35ECE43EAB11115A631 /* StringConst.swift in Sources */,
+				8DAC2ED2B1CFE401FA6D166E /* StringFromBool.swift in Sources */,
+				DD2CE5AF34D0A4112072C1EB /* StringFromFloat.swift in Sources */,
+				AC58AFE52216498939BEF9A0 /* StringFromInt.swift in Sources */,
+				67220F2902BD32FD1ADE31CF /* StringFromKeyValue.swift in Sources */,
+				4F2D0AB2132641ED6C3D23B9 /* StringIF.swift in Sources */,
+				0833369DD6B533E7E0CDEB02 /* StringSummarized.swift in Sources */,
+				F7107FE2EF68194E5DA1375C /* TRUE.swift in Sources */,
+				D01FF58710FCC65338B7573B /* WritableBoolFromWritableKeyValue.swift in Sources */,
+				E768059D5A705495731C85A5 /* WritableBoolMemory.swift in Sources */,
+				B2C1142EBB8B4E50D7C460D5 /* WritableFloatFromWritableKeyValue.swift in Sources */,
+				0F1CF559B7EA252B13A8E563 /* WritableFloatMemory.swift in Sources */,
+				20C9ADC93AC78920A046F3A6 /* WritableIntFromWritableKeyValue.swift in Sources */,
+				18A9C6970D97E1E5038C268D /* WritableIntMemory.swift in Sources */,
+				13E4088E78E927A1DDD40A73 /* WritableKeyValueMemory.swift in Sources */,
+				DEA754289BEF5D39CEE1FDDB /* WritableKeyValuePrefixedKeys.swift in Sources */,
+				F28DDA4E032252ABFC36265D /* WritableStringFromWritableKeyValue.swift in Sources */,
+				FC5E384C9A99680612F6A812 /* WritableStringMemory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D367C5C78AD9AB14B886D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C4A77CC5955AF30124C3E2 /* BoolCachedSpec.swift in Sources */,
+				CA2EE6A8AF8C884A781A9969 /* BoolIFSpec.swift in Sources */,
+				D6B64477A4D6E4B80BFD4FEA /* FloatFromBoolSpec.swift in Sources */,
+				B6D29E747440A85CB26F3017 /* IntFromBoolSpec.swift in Sources */,
+				AFFE201735A208940B05F18B /* StringFromBoolSpec.swift in Sources */,
+				2FB3D0E80DC9E4A49C2F2888 /* BoolFromFloatSpec.swift in Sources */,
+				D8AC2D7B35B9C91F2E2E4637 /* FloatCachedSpec.swift in Sources */,
+				4FC85E4F31D1D05CB433B96E /* FloatIFSpec.swift in Sources */,
+				2416827309430B26523130EF /* IntFromFloatSpec.swift in Sources */,
+				E7DB4A003237A10C1D836197 /* StringFromFloatSpec.swift in Sources */,
+				7FFCF82CC50CA37179860707 /* BoolFromIntSpec.swift in Sources */,
+				4D2C08CD39DFECE2C63B053B /* FloatFromIntSpec.swift in Sources */,
+				6710BD842DE34A8C9656BB6F /* IntCachedSpec.swift in Sources */,
+				3132FBC85F426EF9233E4877 /* IntIFSpec.swift in Sources */,
+				241F0E3AAB19A59B4E0C715B /* StringFromIntSpec.swift in Sources */,
+				68D719AF84BEF5215F5BE277 /* BoolFromStringSpec.swift in Sources */,
+				6F4ADFF5CCF390EFCC774F3F /* FloatFromStringSpec.swift in Sources */,
+				E4AD65ED05BB9F1339B2C7F6 /* IntFromStringSpec.swift in Sources */,
+				BD5AE3A92C26C4BC5BDF33B1 /* StringCachedSpec.swift in Sources */,
+				66AA23FDC0103A635BE06F5C /* StringIFSpec.swift in Sources */,
+				45C654AB7795A3895C149CC2 /* StringSummarizedSpec.swift in Sources */,
+				417A9DEC28FD4BA0C18587EB /* DoWritableBoolRemoveSpec.swift in Sources */,
+				EA15E19C663FE48A11CD4B42 /* DoWritableBoolSetSpec.swift in Sources */,
+				83A30247963D3358017DC473 /* HasWritableBoolValueSpec.swift in Sources */,
+				2200FF719C76E4961E2611D7 /* DoWritableFloatRemoveSpec.swift in Sources */,
+				F4B6D6E0C15C3EDE40F4EDC1 /* DoWritableFloatSetSpec.swift in Sources */,
+				D5FC4864F93CF59168DF2103 /* HasWritableFloatValueSpec.swift in Sources */,
+				C8AE0DA0661F6850D0F642FC /* DoWritableIntRemoveSpec.swift in Sources */,
+				FDDE427040D384C22C9124F2 /* DoWritableIntSetSpec.swift in Sources */,
+				CFF6956AEA4DFF7A9F1A32DE /* HasWritableIntValueSpec.swift in Sources */,
+				4FE1D3CCF8954DEBDAE6CBD9 /* WritableBoolFromWritableKeyValueSpec.swift in Sources */,
+				7818F7AB902519EE02B2649B /* WritableFloatFromWritableKeyValueSpec.swift in Sources */,
+				0B3E36DA10D7C9664AF93160 /* WritableIntFromWritableKeyValueSpec.swift in Sources */,
+				4F3D56FAFE6BC05F806B2CB0 /* WritableStringFromWritableKeyValueSpec.swift in Sources */,
+				369C7BC8D5B9F88A8F80CE28 /* DoWritableKeyValueRemoveSpec.swift in Sources */,
+				06577C996FFF43F10934C37A /* DoWritableKeyValueSetSpec.swift in Sources */,
+				74C399DF08C47706524C0EB3 /* HasWritableKeyValueValueSpec.swift in Sources */,
+				2B7043F49881C8D91B10C7C5 /* WritableKeyValuePrefixedKeysSpec.swift in Sources */,
+				F1B059FE7415C3461B08C9B2 /* DoWritableStringRemoveSpec.swift in Sources */,
+				B1A863B034296855A24B10AC /* DoWritableStringSetSpec.swift in Sources */,
+				C6E42FBDD09180FFAE4B7BE8 /* HasWritableStringValueSpec.swift in Sources */,
+				B106B75B5C466CE9A21B6E80 /* WritableBoolMemorySpec.swift in Sources */,
+				8C92B7B45851EF8420720740 /* WritableFloatMemorySpec.swift in Sources */,
+				8F17D1EF96B8BA66162A1E2D /* WritableIntMemorySpec.swift in Sources */,
+				493820F9A1CF4CA51D5C8AEF /* WritableKeyValueMemorySpec.swift in Sources */,
+				D4F5FB998F808719162EC5F4 /* WritableStringMemorySpec.swift in Sources */,
+				89A181F8BB6010AE104334A6 /* DoIFSpec.swift in Sources */,
+				18657A5FDDB06AD620DA088C /* DoStackSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		208EA35FCCCDBFC644FD70C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OOBase;
+			target = 7F771FB09BEA4189C456376C /* OOBase */;
+			targetProxy = 1B714DA7FD84C3DF227E0CBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05BF03D0060EB3D7B02575BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09CA68B7690C113FB702C78 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		599A8D9EDCA157CB8A04F860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BBE02CC84E5624F3575096 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		73343A4F2E72CBFCFAD03B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCAC9387D4FD32E7420C91CB /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		88B25F0D28B46E3E334FA741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94107E77EE61D8EB49C14EBB /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		BA7E9CD5E2F996499B719D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DA6A6B1B185FE0802B91AE /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E9DE2670B58F44098E2AD6AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263B42DB74CC26E4E2B69D90 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A8C3F9935A45E8D78DA390 /* Build configuration list for PBXNativeTarget "OOBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73343A4F2E72CBFCFAD03B63 /* Release */,
+				E9DE2670B58F44098E2AD6AD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EB069806F3E131E7150246 /* Build configuration list for PBXNativeTarget "OOBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BF03D0060EB3D7B02575BC /* Release */,
+				599A8D9EDCA157CB8A04F860 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9321AF3C193A1085A5B40AB /* Build configuration list for PBXProject "OOBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA7E9CD5E2F996499B719D0F /* Debug */,
+				88B25F0D28B46E3E334FA741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02E68A6414112DB3AC7B5E8E /* Project object */;
+}
