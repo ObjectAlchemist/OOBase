@@ -38,3 +38,7 @@ public extension DoStack {
 public func +(left: OOExecutable, right: OOExecutable) -> OOExecutable {
     return DoStack(left, right)
 }
+
+public func &&(left: OOExecutable, right: OOExecutable) -> OOExecutable {
+    return DoStack(left, right)
+}
