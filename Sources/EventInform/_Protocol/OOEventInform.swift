@@ -17,11 +17,38 @@ public final class OOEventInformFake: OOEventInform {
 
     // MARK: - init
     
+    public init(onSetAction: @escaping () -> () = {}) {
+        self.onSetAction = onSetAction
+    }
+    
     // MARK: - protocol: OOEventInform
     
-    public func set(onEvent: @escaping () -> ()) {}
+    public func set(onEvent: @escaping () -> ()) {
+        onSetAction()
+    }
     
     // MARK: - private
     
+    private let onSetAction: () -> ()
+    
 }
 
+open /*abstract*/ class OOEventInformWrap: OOEventInform {
+    
+    // MARK: - init
+    
+    public init(origin: OOEventInform) {
+        self.origin = origin
+    }
+    
+    // MARK: - protocol: OOEventInform
+    
+    public func set(onEvent: @escaping () -> ()) {
+        origin.set(onEvent: onEvent)
+    }
+    
+    // MARK: - private
+    
+    private let origin: OOEventInform
+    
+}
