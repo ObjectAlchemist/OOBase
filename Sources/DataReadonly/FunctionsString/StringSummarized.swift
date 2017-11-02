@@ -22,9 +22,9 @@ public final class StringSummarized: OOString {
         let firstPart = first.value
         let secondPart = second.value
         let concatenated: String
-        if firstPart.characters.count == 0 {
+        if firstPart.count == 0 {
             concatenated = secondPart
-        } else if secondPart.characters.count == 0 {
+        } else if secondPart.count == 0 {
             concatenated = firstPart
         } else {
             concatenated = "\(firstPart)\(separator.value)\(secondPart)"
