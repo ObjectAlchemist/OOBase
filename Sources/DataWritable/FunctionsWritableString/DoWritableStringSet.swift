@@ -31,7 +31,7 @@ public final class DoWritableStringSet: OOExecutable {
 // convenience initializer
 public extension DoWritableStringSet {
     
-    public convenience init(_ source: String, to target: OOWritableString) {
+    convenience init(_ source: String, to target: OOWritableString) {
         self.init(StringConst(source), to: target)
     }
     

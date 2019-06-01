@@ -38,11 +38,11 @@ public final class FloatCached: OOFloat {
 // convenience initializer
 public extension FloatCached {
     
-    public convenience init(cache decorated: OOFloat, in store: OOWritableKeyValue, at key: String) {
+    convenience init(cache decorated: OOFloat, in store: OOWritableKeyValue, at key: String) {
         self.init(cache: decorated, in: store, at: StringConst(key))
     }
     
-    public convenience init(cache decorated: OOFloat, in store: OOWritableKeyValue, at key: OOString) {
+    convenience init(cache decorated: OOFloat, in store: OOWritableKeyValue, at key: OOString) {
         self.init(cache: decorated, in: WritableFloatFromWritableKeyValue(store, at: key))
     }
     

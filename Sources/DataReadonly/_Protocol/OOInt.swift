@@ -52,7 +52,7 @@ open /*abstract*/ class OOIntWrap: OOInt {
 // OOAny compatibility
 public extension OOInt {
     
-    public var value: Any {
+    var value: Any {
         return value as Int
     }
     

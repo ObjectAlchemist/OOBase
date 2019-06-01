@@ -31,7 +31,7 @@ public final class StringFromKeyValue: OOString {
 // convenience initializer
 public extension StringFromKeyValue {
     
-    public convenience init(storedIn store: OOKeyValue, at key: String) {
+    convenience init(storedIn store: OOKeyValue, at key: String) {
         self.init(storedIn: store, at: StringConst(key))
     }
     

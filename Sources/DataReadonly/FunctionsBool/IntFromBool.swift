@@ -29,7 +29,7 @@ public final class IntFromBool: OOInt {
 // convenience initializer
 public extension IntFromBool {
     
-    public convenience init(_ bool: Bool) {
+    convenience init(_ bool: Bool) {
         self.init(BoolConst(bool))
     }
     

@@ -33,15 +33,15 @@ public final class BoolFromFloat: OOBool {
 // convenience initializer
 public extension BoolFromFloat {
     
-    public convenience init(_ float: Float, accuracy: Float = 0.001) {
+    convenience init(_ float: Float, accuracy: Float = 0.001) {
         self.init(FloatConst(float), accuracy: FloatConst(accuracy))
     }
     
-    public convenience init(_ float: Float, accuracy: OOFloat) {
+    convenience init(_ float: Float, accuracy: OOFloat) {
         self.init(FloatConst(float), accuracy: accuracy)
     }
     
-    public convenience init(_ float: OOFloat, accuracy: Float = 0.001) {
+    convenience init(_ float: OOFloat, accuracy: Float = 0.001) {
         self.init(float, accuracy: FloatConst(accuracy))
     }
     

@@ -31,15 +31,15 @@ public final class And: OOBool {
 // convenience initializer
 public extension And {
     
-    public convenience init(_ first: Bool, _ second: Bool) {
+    convenience init(_ first: Bool, _ second: Bool) {
         self.init(BoolConst(first), BoolConst(second))
     }
     
-    public convenience init(_ first: Bool, _ second: OOBool) {
+    convenience init(_ first: Bool, _ second: OOBool) {
         self.init(BoolConst(first), second)
     }
     
-    public convenience init(_ first: OOBool, _ second: Bool) {
+    convenience init(_ first: OOBool, _ second: Bool) {
         self.init(first, BoolConst(second))
     }
     

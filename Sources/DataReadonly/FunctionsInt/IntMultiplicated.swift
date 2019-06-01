@@ -31,15 +31,15 @@ public final class IntMultiplicated: OOInt {
 // convenience initializer
 public extension IntMultiplicated {
     
-    public convenience init(_ first: Int, multipliedBy second: Int) {
+    convenience init(_ first: Int, multipliedBy second: Int) {
         self.init(IntConst(first), multipliedBy: IntConst(second))
     }
     
-    public convenience init(_ first: Int, multipliedBy second: OOInt) {
+    convenience init(_ first: Int, multipliedBy second: OOInt) {
         self.init(IntConst(first), multipliedBy: second)
     }
     
-    public convenience init(_ first: OOInt, multipliedBy second: Int) {
+    convenience init(_ first: OOInt, multipliedBy second: Int) {
         self.init(first, multipliedBy: IntConst(second))
     }
     

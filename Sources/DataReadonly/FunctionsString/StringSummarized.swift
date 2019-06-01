@@ -43,31 +43,31 @@ public final class StringSummarized: OOString {
 // convenience initializer
 public extension StringSummarized {
     
-    public convenience init(_ first: String, _ second: String, separatedBy separator: String = "") {
+    convenience init(_ first: String, _ second: String, separatedBy separator: String = "") {
         self.init(StringConst(first), StringConst(second), separatedBy: StringConst(separator))
     }
     
-    public convenience init(_ first: String, _ second: String, separatedBy separator: OOString) {
+    convenience init(_ first: String, _ second: String, separatedBy separator: OOString) {
         self.init(StringConst(first), StringConst(second), separatedBy: separator)
     }
     
-    public convenience init(_ first: String, _ second: OOString, separatedBy separator: String = "") {
+    convenience init(_ first: String, _ second: OOString, separatedBy separator: String = "") {
         self.init(StringConst(first), second, separatedBy: StringConst(separator))
     }
     
-    public convenience init(_ first: OOString, _ second: String, separatedBy separator: String = "") {
+    convenience init(_ first: OOString, _ second: String, separatedBy separator: String = "") {
         self.init(first, StringConst(second), separatedBy: StringConst(separator))
     }
     
-    public convenience init(_ first: String, _ second: OOString, separatedBy separator: OOString) {
+    convenience init(_ first: String, _ second: OOString, separatedBy separator: OOString) {
         self.init(StringConst(first), second, separatedBy: separator)
     }
     
-    public convenience init(_ first: OOString, _ second: String, separatedBy separator: OOString) {
+    convenience init(_ first: OOString, _ second: String, separatedBy separator: OOString) {
         self.init(first, StringConst(second), separatedBy: separator)
     }
     
-    public convenience init(_ first: OOString, _ second: OOString, separatedBy separator: String = "") {
+    convenience init(_ first: OOString, _ second: OOString, separatedBy separator: String = "") {
         self.init(first, second, separatedBy: StringConst(separator))
     }
     

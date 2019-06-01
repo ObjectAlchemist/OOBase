@@ -33,31 +33,31 @@ public final class StringIF: OOString {
 // convenience initializer
 public extension StringIF {
     
-    public convenience init(_ bool: Bool, THEN primary: String, ELSE secondary: String = "") {
+    convenience init(_ bool: Bool, THEN primary: String, ELSE secondary: String = "") {
         self.init(BoolConst(bool), THEN: StringConst(primary), ELSE: StringConst(secondary))
     }
     
-    public convenience init(_ bool: Bool, THEN primary: String, ELSE secondary: OOString) {
+    convenience init(_ bool: Bool, THEN primary: String, ELSE secondary: OOString) {
         self.init(BoolConst(bool), THEN: StringConst(primary), ELSE: secondary)
     }
     
-    public convenience init(_ bool: Bool, THEN primary: OOString, ELSE secondary: String = "") {
+    convenience init(_ bool: Bool, THEN primary: OOString, ELSE secondary: String = "") {
         self.init(BoolConst(bool), THEN: primary, ELSE: StringConst(secondary))
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: String, ELSE secondary: String = "") {
+    convenience init(_ bool: OOBool, THEN primary: String, ELSE secondary: String = "") {
         self.init(bool, THEN: StringConst(primary), ELSE: StringConst(secondary))
     }
     
-    public convenience init(_ bool: Bool, THEN primary: OOString, ELSE secondary: OOString) {
+    convenience init(_ bool: Bool, THEN primary: OOString, ELSE secondary: OOString) {
         self.init(BoolConst(bool), THEN: primary, ELSE: secondary)
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: String, ELSE secondary: OOString) {
+    convenience init(_ bool: OOBool, THEN primary: String, ELSE secondary: OOString) {
         self.init(bool, THEN: StringConst(primary), ELSE: secondary)
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: OOString, ELSE secondary: String = "") {
+    convenience init(_ bool: OOBool, THEN primary: OOString, ELSE secondary: String = "") {
         self.init(bool, THEN: primary, ELSE: StringConst(secondary))
     }
     

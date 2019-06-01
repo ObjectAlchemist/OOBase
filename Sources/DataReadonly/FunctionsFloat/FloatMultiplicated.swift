@@ -31,15 +31,15 @@ public final class FloatMultiplicated: OOFloat {
 // convenience initializer
 public extension FloatMultiplicated {
     
-    public convenience init(_ first: Float, multipliedBy second: Float) {
+    convenience init(_ first: Float, multipliedBy second: Float) {
         self.init(FloatConst(first), multipliedBy: FloatConst(second))
     }
     
-    public convenience init(_ first: Float, multipliedBy second: OOFloat) {
+    convenience init(_ first: Float, multipliedBy second: OOFloat) {
         self.init(FloatConst(first), multipliedBy: second)
     }
     
-    public convenience init(_ first: OOFloat, multipliedBy second: Float) {
+    convenience init(_ first: OOFloat, multipliedBy second: Float) {
         self.init(first, multipliedBy: FloatConst(second))
     }
     

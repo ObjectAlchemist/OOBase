@@ -31,7 +31,7 @@ public final class FloatFromKeyValue: OOFloat {
 // convenience initializer
 public extension FloatFromKeyValue {
     
-    public convenience init(storedIn store: OOKeyValue, at key: String) {
+    convenience init(storedIn store: OOKeyValue, at key: String) {
         self.init(storedIn: store, at: StringConst(key))
     }
     

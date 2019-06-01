@@ -29,7 +29,7 @@ public final class StringFromBool: OOString {
 // convenience initializer
 public extension StringFromBool {
     
-    public convenience init(_ bool: Bool) {
+    convenience init(_ bool: Bool) {
         self.init(BoolConst(bool))
     }
     

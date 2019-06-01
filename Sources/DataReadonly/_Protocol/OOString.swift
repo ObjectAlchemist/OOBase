@@ -52,7 +52,7 @@ open /*abstract*/ class OOStringWrap: OOString {
 // OOAny compatibility
 public extension OOString {
     
-    public var value: Any {
+    var value: Any {
         return value as String
     }
     

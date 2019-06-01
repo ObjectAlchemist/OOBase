@@ -29,7 +29,7 @@ public final class IsEmptyString: OOBool {
 // convenience initializer
 public extension IsEmptyString {
     
-    public convenience init(_ string: String) {
+    convenience init(_ string: String) {
         self.init(StringConst(string))
     }
     

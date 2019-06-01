@@ -52,7 +52,7 @@ open /*abstract*/ class OOFloatWrap: OOFloat {
 // OOAny compatibility
 public extension OOFloat {
     
-    public var value: Any {
+    var value: Any {
         return value as Float
     }
     

@@ -29,7 +29,7 @@ public final class BoolFromString: OOBool {
 // convenience initializer
 public extension BoolFromString {
     
-    public convenience init(_ string: String) {
+    convenience init(_ string: String) {
         self.init(StringConst(string))
     }
     

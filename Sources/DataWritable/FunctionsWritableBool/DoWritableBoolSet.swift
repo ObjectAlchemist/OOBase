@@ -31,7 +31,7 @@ public final class DoWritableBoolSet: OOExecutable {
 // convenience initializer
 public extension DoWritableBoolSet {
     
-    public convenience init(_ source: Bool, to target: OOWritableBool) {
+    convenience init(_ source: Bool, to target: OOWritableBool) {
         self.init(BoolConst(source), to: target)
     }
     

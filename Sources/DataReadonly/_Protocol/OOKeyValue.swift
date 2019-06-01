@@ -55,7 +55,7 @@ open /*abstract*/ class OOKeyValueWrap: OOKeyValue {
 
 public extension OOKeyValue {
     
-    public subscript(key: String) -> Any {
+    subscript(key: String) -> Any {
         return value(for: key)
     }
     

@@ -31,15 +31,15 @@ public final class FloatDivided: OOFloat {
 // convenience initializer
 public extension FloatDivided {
     
-    public convenience init(_ first: Float, dividedBy second: Float) {
+    convenience init(_ first: Float, dividedBy second: Float) {
         self.init(FloatConst(first), dividedBy: FloatConst(second))
     }
     
-    public convenience init(_ first: Float, dividedBy second: OOFloat) {
+    convenience init(_ first: Float, dividedBy second: OOFloat) {
         self.init(FloatConst(first), dividedBy: second)
     }
     
-    public convenience init(_ first: OOFloat, dividedBy second: Float) {
+    convenience init(_ first: OOFloat, dividedBy second: Float) {
         self.init(first, dividedBy: FloatConst(second))
     }
     

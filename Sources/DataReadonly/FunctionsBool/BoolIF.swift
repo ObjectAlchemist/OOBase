@@ -33,31 +33,31 @@ public final class BoolIF: OOBool {
 // convenience initializer
 public extension BoolIF {
 
-    public convenience init(_ bool: Bool, THEN primary: Bool, ELSE secondary: Bool = false) {
+    convenience init(_ bool: Bool, THEN primary: Bool, ELSE secondary: Bool = false) {
         self.init(BoolConst(bool), THEN: BoolConst(primary), ELSE: BoolConst(secondary))
     }
     
-    public convenience init(_ bool: Bool, THEN primary: Bool, ELSE secondary: OOBool) {
+    convenience init(_ bool: Bool, THEN primary: Bool, ELSE secondary: OOBool) {
         self.init(BoolConst(bool), THEN: BoolConst(primary), ELSE: secondary)
     }
     
-    public convenience init(_ bool: Bool, THEN primary: OOBool, ELSE secondary: Bool = false) {
+    convenience init(_ bool: Bool, THEN primary: OOBool, ELSE secondary: Bool = false) {
         self.init(BoolConst(bool), THEN: primary, ELSE: BoolConst(secondary))
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: Bool, ELSE secondary: Bool = false) {
+    convenience init(_ bool: OOBool, THEN primary: Bool, ELSE secondary: Bool = false) {
         self.init(bool, THEN: BoolConst(primary), ELSE: BoolConst(secondary))
     }
     
-    public convenience init(_ bool: Bool, THEN primary: OOBool, ELSE secondary: OOBool) {
+    convenience init(_ bool: Bool, THEN primary: OOBool, ELSE secondary: OOBool) {
         self.init(BoolConst(bool), THEN: primary, ELSE: secondary)
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: Bool, ELSE secondary: OOBool) {
+    convenience init(_ bool: OOBool, THEN primary: Bool, ELSE secondary: OOBool) {
         self.init(bool, THEN: BoolConst(primary), ELSE: secondary)
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: OOBool, ELSE secondary: Bool = false) {
+    convenience init(_ bool: OOBool, THEN primary: OOBool, ELSE secondary: Bool = false) {
         self.init(bool, THEN: primary, ELSE: BoolConst(secondary))
     }
     

@@ -31,15 +31,15 @@ public final class FloatSummarized: OOFloat {
 // convenience initializer
 public extension FloatSummarized {
     
-    public convenience init(_ first: Float, plus second: Float) {
+    convenience init(_ first: Float, plus second: Float) {
         self.init(FloatConst(first), plus: FloatConst(second))
     }
     
-    public convenience init(_ first: Float, plus second: OOFloat) {
+    convenience init(_ first: Float, plus second: OOFloat) {
         self.init(FloatConst(first), plus: second)
     }
     
-    public convenience init(_ first: OOFloat, plus second: Float) {
+    convenience init(_ first: OOFloat, plus second: Float) {
         self.init(first, plus: FloatConst(second))
     }
     

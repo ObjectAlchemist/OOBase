@@ -29,7 +29,7 @@ public final class Not: OOBool {
 // convenience initializer
 public extension Not {
     
-    public convenience init(_ decorated: Bool) {
+    convenience init(_ decorated: Bool) {
         self.init(BoolConst(decorated))
     }
     

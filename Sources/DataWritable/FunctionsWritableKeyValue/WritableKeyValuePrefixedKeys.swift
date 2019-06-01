@@ -46,7 +46,7 @@ public final class WritableKeyValuePrefixedKeys: OOWritableKeyValue {
 // convenience initializer
 public extension WritableKeyValuePrefixedKeys {
     
-    public convenience init(_ decorated: OOWritableKeyValue, prefix: String) {
+    convenience init(_ decorated: OOWritableKeyValue, prefix: String) {
         self.init(decorated, prefix: StringConst(prefix))
     }
     

@@ -40,11 +40,11 @@ public final class WritableStringMemory: OOWritableString {
 // convenience initializer
 public extension WritableStringMemory {
     
-    public convenience init(_ initial: String) {
+    convenience init(_ initial: String) {
         self.init(optInitial: initial)
     }
     
-    public convenience init() {
+    convenience init() {
         self.init(optInitial: nil)
     }
     

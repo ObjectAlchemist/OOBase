@@ -31,15 +31,15 @@ public final class IsEqualInts: OOBool {
 // convenience initializer
 public extension IsEqualInts {
     
-    public convenience init(_ first: Int, _ second: Int) {
+    convenience init(_ first: Int, _ second: Int) {
         self.init(IntConst(first), IntConst(second))
     }
     
-    public convenience init(_ first: Int, _ second: OOInt) {
+    convenience init(_ first: Int, _ second: OOInt) {
         self.init(IntConst(first), second)
     }
     
-    public convenience init(_ first: OOInt, _ second: Int) {
+    convenience init(_ first: OOInt, _ second: Int) {
         self.init(first, IntConst(second))
     }
     

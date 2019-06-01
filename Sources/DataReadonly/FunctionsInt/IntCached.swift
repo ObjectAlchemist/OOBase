@@ -38,11 +38,11 @@ public final class IntCached: OOInt {
 // convenience initializer
 public extension IntCached {
     
-    public convenience init(cache decorated: OOInt, in store: OOWritableKeyValue, at key: String) {
+    convenience init(cache decorated: OOInt, in store: OOWritableKeyValue, at key: String) {
         self.init(cache: decorated, in: store, at: StringConst(key))
     }
     
-    public convenience init(cache decorated: OOInt, in store: OOWritableKeyValue, at key: OOString) {
+    convenience init(cache decorated: OOInt, in store: OOWritableKeyValue, at key: OOString) {
         self.init(cache: decorated, in: WritableIntFromWritableKeyValue(store, at: key))
     }
     

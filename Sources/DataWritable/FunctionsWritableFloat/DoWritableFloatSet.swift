@@ -31,7 +31,7 @@ public final class DoWritableFloatSet: OOExecutable {
 // convenience initializer
 public extension DoWritableFloatSet {
     
-    public convenience init(_ source: Float, to target: OOWritableFloat) {
+    convenience init(_ source: Float, to target: OOWritableFloat) {
         self.init(FloatConst(source), to: target)
     }
     

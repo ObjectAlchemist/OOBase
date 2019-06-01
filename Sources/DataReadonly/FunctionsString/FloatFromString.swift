@@ -29,7 +29,7 @@ public final class FloatFromString: OOFloat {
 // convenience initializer
 public extension FloatFromString {
     
-    public convenience init(_ string: String) {
+    convenience init(_ string: String) {
         self.init(StringConst(string))
     }
     

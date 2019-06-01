@@ -31,15 +31,15 @@ public final class IntSubtracted: OOInt {
 // convenience initializer
 public extension IntSubtracted {
     
-    public convenience init(_ first: Int, minus second: Int) {
+    convenience init(_ first: Int, minus second: Int) {
         self.init(IntConst(first), minus: IntConst(second))
     }
     
-    public convenience init(_ first: Int, minus second: OOInt) {
+    convenience init(_ first: Int, minus second: OOInt) {
         self.init(IntConst(first), minus: second)
     }
     
-    public convenience init(_ first: OOInt, minus second: Int) {
+    convenience init(_ first: OOInt, minus second: Int) {
         self.init(first, minus: IntConst(second))
     }
     

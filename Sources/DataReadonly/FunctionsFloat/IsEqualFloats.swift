@@ -31,15 +31,15 @@ public final class IsEqualFloats: OOBool {
 // convenience initializer
 public extension IsEqualFloats {
     
-    public convenience init(_ first: Float, _ second: Float) {
+    convenience init(_ first: Float, _ second: Float) {
         self.init(FloatConst(first), FloatConst(second))
     }
     
-    public convenience init(_ first: Float, _ second: OOFloat) {
+    convenience init(_ first: Float, _ second: OOFloat) {
         self.init(FloatConst(first), second)
     }
     
-    public convenience init(_ first: OOFloat, _ second: Float) {
+    convenience init(_ first: OOFloat, _ second: Float) {
         self.init(first, FloatConst(second))
     }
     

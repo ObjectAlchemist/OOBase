@@ -31,7 +31,7 @@ public final class HasWritableKeyValueValue: OOBool {
 // convenience initializer
 public extension HasWritableKeyValueValue {
     
-    public convenience init(_ source: OOWritableKeyValue, at key: String) {
+    convenience init(_ source: OOWritableKeyValue, at key: String) {
         self.init(source, at: StringConst(key))
     }
     

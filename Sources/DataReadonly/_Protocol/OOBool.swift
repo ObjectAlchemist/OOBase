@@ -52,7 +52,7 @@ open /*abstract*/ class OOBoolWrap: OOBool {
 // OOAny compatibility
 public extension OOBool {
     
-    public var value: Any {
+    var value: Any {
         return value as Bool
     }
     

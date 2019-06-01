@@ -31,15 +31,15 @@ public final class IntSummarized: OOInt {
 // convenience initializer
 public extension IntSummarized {
     
-    public convenience init(_ first: Int, plus second: Int) {
+    convenience init(_ first: Int, plus second: Int) {
         self.init(IntConst(first), plus: IntConst(second))
     }
     
-    public convenience init(_ first: Int, plus second: OOInt) {
+    convenience init(_ first: Int, plus second: OOInt) {
         self.init(IntConst(first), plus: second)
     }
     
-    public convenience init(_ first: OOInt, plus second: Int) {
+    convenience init(_ first: OOInt, plus second: Int) {
         self.init(first, plus: IntConst(second))
     }
     

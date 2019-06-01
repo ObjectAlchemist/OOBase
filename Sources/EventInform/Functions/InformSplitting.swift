@@ -32,7 +32,7 @@ public final class InformSplitting: OOEventInform {
 /** Convenience initializer. */
 public extension InformSplitting {
     
-    public convenience init(_ first: OOEventInform, _ second: OOEventInform) {
+    convenience init(_ first: OOEventInform, _ second: OOEventInform) {
         self.init([first, second])
     }
     

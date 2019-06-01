@@ -31,15 +31,15 @@ public final class IsEqualStrings: OOBool {
 // convenience initializer
 public extension IsEqualStrings {
     
-    public convenience init(_ first: String, _ second: String) {
+    convenience init(_ first: String, _ second: String) {
         self.init(StringConst(first), StringConst(second))
     }
     
-    public convenience init(_ first: String, _ second: OOString) {
+    convenience init(_ first: String, _ second: OOString) {
         self.init(StringConst(first), second)
     }
     
-    public convenience init(_ first: OOString, _ second: String) {
+    convenience init(_ first: OOString, _ second: String) {
         self.init(first, StringConst(second))
     }
     

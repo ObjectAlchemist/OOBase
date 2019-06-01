@@ -40,11 +40,11 @@ public final class WritableFloatMemory: OOWritableFloat {
 // convenience initializer
 public extension WritableFloatMemory {
     
-    public convenience init(_ initial: Float) {
+    convenience init(_ initial: Float) {
         self.init(optInitial: initial)
     }
     
-    public convenience init() {
+    convenience init() {
         self.init(optInitial: nil)
     }
     

@@ -31,7 +31,7 @@ public final class DoWritableKeyValueRemove: OOExecutable {
 // convenience initializer
 public extension DoWritableKeyValueRemove {
     
-    public convenience init(_ target: OOWritableKeyValue, at key: String) {
+    convenience init(_ target: OOWritableKeyValue, at key: String) {
         self.init(target, at: StringConst(key))
     }
     

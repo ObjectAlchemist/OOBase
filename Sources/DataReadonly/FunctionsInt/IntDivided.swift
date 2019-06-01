@@ -31,15 +31,15 @@ public final class IntDivided: OOInt {
 // convenience initializer
 public extension IntDivided {
     
-    public convenience init(_ first: Int, dividedBy second: Int) {
+    convenience init(_ first: Int, dividedBy second: Int) {
         self.init(IntConst(first), dividedBy: IntConst(second))
     }
     
-    public convenience init(_ first: Int, dividedBy second: OOInt) {
+    convenience init(_ first: Int, dividedBy second: OOInt) {
         self.init(IntConst(first), dividedBy: second)
     }
     
-    public convenience init(_ first: OOInt, dividedBy second: Int) {
+    convenience init(_ first: OOInt, dividedBy second: Int) {
         self.init(first, dividedBy: IntConst(second))
     }
     

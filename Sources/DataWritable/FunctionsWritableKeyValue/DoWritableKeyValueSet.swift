@@ -33,7 +33,7 @@ public final class DoWritableKeyValueSet: OOExecutable {
 // convenience initializer
 public extension DoWritableKeyValueSet {
     
-    public convenience init(_ source: OOAny, in target: OOWritableKeyValue, at key: String) {
+    convenience init(_ source: OOAny, in target: OOWritableKeyValue, at key: String) {
         self.init(source, in: target, at: StringConst(key))
     }
     

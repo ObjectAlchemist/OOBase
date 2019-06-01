@@ -82,7 +82,7 @@ open /*abstract*/ class OOWritableKeyValueWrap: OOWritableKeyValue {
 
 public extension OOWritableKeyValue {
     
-    public subscript(key: String) -> Any {
+    subscript(key: String) -> Any {
         get { return value(for: key) }
         set(value) { set(value: value, for: key) }
     }

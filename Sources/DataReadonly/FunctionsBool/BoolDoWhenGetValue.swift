@@ -34,15 +34,15 @@ public final class BoolDoWhenGetValue: OOBool {
 /** Convenience initializer. */
 public extension BoolDoWhenGetValue {
   
-    public convenience init(_ value: Bool, action: @escaping (Bool) -> OOExecutable) {
+    convenience init(_ value: Bool, action: @escaping (Bool) -> OOExecutable) {
         self.init(BoolConst(value), action: action)
     }
 
-    public convenience init(_ decorated: OOBool, action: OOExecutable) {
+    convenience init(_ decorated: OOBool, action: OOExecutable) {
         self.init(decorated, action: { _ in action })
     }
 
-    public convenience init(_ value: Bool, action: OOExecutable) {
+    convenience init(_ value: Bool, action: OOExecutable) {
         self.init(BoolConst(value), action: { _ in action })
     }
     

@@ -31,7 +31,7 @@ public final class BoolFromKeyValue: OOBool {
 // convenience initializer
 public extension BoolFromKeyValue {
     
-    public convenience init(storedIn store: OOKeyValue, at key: String) {
+    convenience init(storedIn store: OOKeyValue, at key: String) {
         self.init(storedIn: store, at: StringConst(key))
     }
     

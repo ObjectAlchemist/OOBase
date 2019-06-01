@@ -29,7 +29,7 @@ public final class FloatFromBool: OOFloat {
 // convenience initializer
 public extension FloatFromBool {
     
-    public convenience init(_ bool: Bool) {
+    convenience init(_ bool: Bool) {
         self.init(BoolConst(bool))
     }
     

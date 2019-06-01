@@ -29,7 +29,7 @@ public final class StringFromInt: OOString {
 // convenience initializer
 public extension StringFromInt {
     
-    public convenience init(_ int: Int) {
+    convenience init(_ int: Int) {
         self.init(IntConst(int))
     }
     

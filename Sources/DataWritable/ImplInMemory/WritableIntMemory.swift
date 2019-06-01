@@ -40,11 +40,11 @@ public final class WritableIntMemory: OOWritableInt {
 // convenience initializer
 public extension WritableIntMemory {
     
-    public convenience init(_ initial: Int) {
+    convenience init(_ initial: Int) {
         self.init(optInitial: initial)
     }
     
-    public convenience init() {
+    convenience init() {
         self.init(optInitial: nil)
     }
     

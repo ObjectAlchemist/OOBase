@@ -29,7 +29,7 @@ public final class IntFromFloat: OOInt {
 // convenience initializer
 public extension IntFromFloat {
     
-    public convenience init(_ float: Float) {
+    convenience init(_ float: Float) {
         self.init(FloatConst(float))
     }
     

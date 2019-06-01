@@ -31,15 +31,15 @@ public final class FloatSubtracted: OOFloat {
 // convenience initializer
 public extension FloatSubtracted {
     
-    public convenience init(_ first: Float, minus second: Float) {
+    convenience init(_ first: Float, minus second: Float) {
         self.init(FloatConst(first), minus: FloatConst(second))
     }
     
-    public convenience init(_ first: Float, minus second: OOFloat) {
+    convenience init(_ first: Float, minus second: OOFloat) {
         self.init(FloatConst(first), minus: second)
     }
     
-    public convenience init(_ first: OOFloat, minus second: Float) {
+    convenience init(_ first: OOFloat, minus second: Float) {
         self.init(first, minus: FloatConst(second))
     }
     

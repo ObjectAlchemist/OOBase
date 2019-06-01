@@ -29,7 +29,7 @@ public final class DoStack: OOExecutable {
 // convenience initializer
 public extension DoStack {
     
-    public convenience init(_ first: OOExecutable, _ second: OOExecutable) {
+    convenience init(_ first: OOExecutable, _ second: OOExecutable) {
         self.init([first, second])
     }
     

@@ -40,11 +40,11 @@ public final class WritableBoolMemory: OOWritableBool {
 // convenience initializer
 public extension WritableBoolMemory {
     
-    public convenience init(_ initial: Bool) {
+    convenience init(_ initial: Bool) {
         self.init(optInitial: initial)
     }
     
-    public convenience init() {
+    convenience init() {
         self.init(optInitial: nil)
     }
     

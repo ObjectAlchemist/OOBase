@@ -33,7 +33,7 @@ public final class DoIF: OOExecutable {
 // convenience initializer
 public extension DoIF {
     
-    public convenience init(_ bool: Bool, THEN primary: OOExecutable, ELSE secondary: OOExecutable = DoNothing()) {
+    convenience init(_ bool: Bool, THEN primary: OOExecutable, ELSE secondary: OOExecutable = DoNothing()) {
         self.init(BoolConst(bool), THEN: primary, ELSE: secondary)
     }
     

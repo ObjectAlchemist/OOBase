@@ -31,7 +31,7 @@ public final class DoWritableIntSet: OOExecutable {
 // convenience initializer
 public extension DoWritableIntSet {
     
-    public convenience init(_ source: Int, to target: OOWritableInt) {
+    convenience init(_ source: Int, to target: OOWritableInt) {
         self.init(IntConst(source), to: target)
     }
     
